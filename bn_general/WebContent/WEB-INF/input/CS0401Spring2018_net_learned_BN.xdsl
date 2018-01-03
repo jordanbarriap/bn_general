@@ -1,0 +1,4605 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<smile version="1.0" id="Unnamed" numsamples="1000" discsamples="10000">
+	<nodes>
+		<cpt id="ArrayElement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.7247721319791839 0.2752278680208162</probabilities>
+		</cpt>
+		<cpt id="MultiDimensionalArrayDataType">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.4801398996782572 0.5198601003217429</probabilities>
+		</cpt>
+		<cpt id="IntDataType">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.4959637312115769 0.5040362687884231</probabilities>
+		</cpt>
+		<cpt id="NestedForLoops">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.5815208195167041 0.418479180483296</probabilities>
+		</cpt>
+		<cpt id="LessExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9835719998578062 0.0164280001421938</probabilities>
+		</cpt>
+		<cpt id="ReturnStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.8530874872117621 0.1469125127882379</probabilities>
+		</cpt>
+		<cpt id="AddAssignmentExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9243877076643542 0.07561229233564581</probabilities>
+		</cpt>
+		<cpt id="ArrayLength">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.8930952589839178 0.1069047410160821</probabilities>
+		</cpt>
+		<cpt id="False">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.657785533713524 0.3422144662864761</probabilities>
+		</cpt>
+		<cpt id="True">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.3118926291970382 0.6881073708029618</probabilities>
+		</cpt>
+		<cpt id="IfElseIfStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.3907222595128042 0.6092777404871959</probabilities>
+		</cpt>
+		<cpt id="PostIncrementExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.8486625872077481 0.1513374127922519</probabilities>
+		</cpt>
+		<cpt id="java_util_ArrayList">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.1915753006833851 0.808424699316615</probabilities>
+		</cpt>
+		<cpt id="ForEachStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.92635730948691 0.07364269051308993</probabilities>
+		</cpt>
+		<cpt id="GenericObjectCreationStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.191575300683385 0.808424699316615</probabilities>
+		</cpt>
+		<cpt id="java_util_ArrayList_add">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.1915753006833851 0.808424699316615</probabilities>
+		</cpt>
+		<cpt id="ModulusExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.7171200641588394 0.2828799358411605</probabilities>
+		</cpt>
+		<cpt id="IfElseStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.926563459229929 0.07343654077007104</probabilities>
+		</cpt>
+		<cpt id="DoubleDataType">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.8764757954563978 0.1235242045436022</probabilities>
+		</cpt>
+		<cpt id="GreaterExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9696000900526238 0.03039990994737614</probabilities>
+		</cpt>
+		<cpt id="java_lang_String_charAt">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.3072532282795325 0.6927467717204674</probabilities>
+		</cpt>
+		<cpt id="AndExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9737373856733014 0.02626261432669861</probabilities>
+		</cpt>
+		<cpt id="ObjectMethodInvocation">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9309816668293749 0.06901833317062511</probabilities>
+		</cpt>
+		<cpt id="ExplicitTypeCasting">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.7749843659719843 0.2250156340280158</probabilities>
+		</cpt>
+		<cpt id="java_lang_String_equals">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.2654696730331951 0.7345303269668048</probabilities>
+		</cpt>
+		<cpt id="StringVariable">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.8475213290461271 0.1524786709538729</probabilities>
+		</cpt>
+		<cpt id="ActualMethodParameter">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.1497737983878717 0.8502262016121284</probabilities>
+		</cpt>
+		<cpt id="java_lang_String_substring">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.5041542757519898 0.4958457242480102</probabilities>
+		</cpt>
+		<cpt id="DivideExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.191780588854205 0.8082194111457951</probabilities>
+		</cpt>
+		<cpt id="ForStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9531963461215646 0.04680365387843543</probabilities>
+		</cpt>
+		<cpt id="LessEqualExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.6777213030615576 0.3222786969384423</probabilities>
+		</cpt>
+		<cpt id="java_lang_String_length">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.4849542622125773 0.5150457377874228</probabilities>
+		</cpt>
+		<cpt id="EqualExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.6558549556828609 0.3441450443171392</probabilities>
+		</cpt>
+		<cpt id="GreaterEqualExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.4441614330153675 0.5558385669846325</probabilities>
+		</cpt>
+		<cpt id="NotExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.8883472372748547 0.1116527627251454</probabilities>
+		</cpt>
+		<cpt id="SuperclassConstructorCall">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.07658689694444884 0.9234131030555512</probabilities>
+		</cpt>
+		<cpt id="ConstructorDefinition">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.205550224641842 0.794449775358158</probabilities>
+		</cpt>
+		<cpt id="PublicConstructorSpecifier">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.1857622997526072 0.8142377002473929</probabilities>
+		</cpt>
+		<cpt id="ExtendsSpecification">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.07658689694444844 0.9234131030555516</probabilities>
+		</cpt>
+		<cpt id="PrivateFieldSpecifier">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.3660155516328241 0.6339844483671758</probabilities>
+		</cpt>
+		<cpt id="FormalMethodParameter">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.2819140753486589 0.718085924651341</probabilities>
+		</cpt>
+		<cpt id="SuperclassMethodCall">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.2103584462356047 0.7896415537643954</probabilities>
+		</cpt>
+		<cpt id="SuperReference">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.2103584462356047 0.7896415537643954</probabilities>
+		</cpt>
+		<cpt id="PublicMethodSpecifier">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.07943192355705252 0.9205680764429475</probabilities>
+		</cpt>
+		<cpt id="MethodDefinition">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.07943192355705252 0.9205680764429475</probabilities>
+		</cpt>
+		<cpt id="OrExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9811606722972688 0.01883932770273132</probabilities>
+		</cpt>
+		<cpt id="AddExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.450074313887665 0.5499256861123351</probabilities>
+		</cpt>
+		<cpt id="java_lang_System_out_print">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.8134467790421005 0.1865532209578996</probabilities>
+		</cpt>
+		<cpt id="java_lang_System_out_println">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.2374979279761069 0.7625020720238931</probabilities>
+		</cpt>
+		<cpt id="PublicClassSpecifier">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.3215970193349768 0.6784029806650232</probabilities>
+		</cpt>
+		<cpt id="VoidDataType">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.3599525312565895 0.6400474687434105</probabilities>
+		</cpt>
+		<cpt id="ThisReference">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.3809509555148379 0.6190490444851622</probabilities>
+		</cpt>
+		<cpt id="InstanceFieldInvocation">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.3809509555148379 0.6190490444851622</probabilities>
+		</cpt>
+		<cpt id="StringDataType">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.1156869776733572 0.8843130223266428</probabilities>
+		</cpt>
+		<cpt id="InstanceField">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.4306457709528893 0.5693542290471107</probabilities>
+		</cpt>
+		<cpt id="OverridingToString">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.2829704642798787 0.7170295357201213</probabilities>
+		</cpt>
+		<cpt id="SimpleVariable">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9510236551247784 0.04897634487522162</probabilities>
+		</cpt>
+		<cpt id="MultiplyExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.7669761368852864 0.2330238631147135</probabilities>
+		</cpt>
+		<cpt id="StringAddition">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.3583534222990671 0.6416465777009328</probabilities>
+		</cpt>
+		<cpt id="StringLiteral">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.1477692126971669 0.8522307873028331</probabilities>
+		</cpt>
+		<cpt id="WhileStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.1062070427967837 0.8937929572032163</probabilities>
+		</cpt>
+		<cpt id="PostDecrementExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.6944683822397766 0.3055316177602234</probabilities>
+		</cpt>
+		<cpt id="BooleanDataType">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9867565030863776 0.01324349691362243</probabilities>
+		</cpt>
+		<cpt id="ArrayInitializationStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9477246447404565 0.05227535525954351</probabilities>
+		</cpt>
+		<cpt id="ArrayInitializer">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.909197727332971 0.09080227266702896</probabilities>
+		</cpt>
+		<cpt id="ArrayVariable">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.8976330470624657 0.1023669529375343</probabilities>
+		</cpt>
+		<cpt id="ArrayCreationStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9343047762605108 0.06569522373948929</probabilities>
+		</cpt>
+		<cpt id="ArrayDataType">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.512339724883671 0.4876602751163291</probabilities>
+		</cpt>
+		<cpt id="IfStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.8924840934069452 0.1075159065930547</probabilities>
+		</cpt>
+		<cpt id="java_lang_Math_round">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.4222837417093816 0.5777162582906183</probabilities>
+		</cpt>
+		<cpt id="java_lang_Math_pow">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9520160238318714 0.04798397616812852</probabilities>
+		</cpt>
+		<cpt id="Constant">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9067321930099033 0.09326780699009676</probabilities>
+		</cpt>
+		<cpt id="ConstantInitializationStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9067321930099033 0.09326780699009676</probabilities>
+		</cpt>
+		<cpt id="SubtractExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.6182086404109921 0.381791359589008</probabilities>
+		</cpt>
+		<cpt id="java_lang_Math_sqrt">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9370932102616726 0.06290678973832743</probabilities>
+		</cpt>
+		<cpt id="LongDataType">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.4163267690331061 0.5836732309668938</probabilities>
+		</cpt>
+		<cpt id="java_util_ArrayList_size">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.5638253097550604 0.4361746902449397</probabilities>
+		</cpt>
+		<cpt id="OnDemandImport">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.4810618919180623 0.5189381080819377</probabilities>
+		</cpt>
+		<cpt id="ThrowsSpecification">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.5638253097550604 0.4361746902449395</probabilities>
+		</cpt>
+		<cpt id="PreDecrementExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.7068391665849438 0.2931608334150562</probabilities>
+		</cpt>
+		<cpt id="PreIncrementExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.7068391665849438 0.2931608334150562</probabilities>
+		</cpt>
+		<cpt id="ImportStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.9941081601257216 0.005891839874278416</probabilities>
+		</cpt>
+		<cpt id="XORExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.6996730523146087 0.3003269476853912</probabilities>
+		</cpt>
+		<cpt id="java_lang_Integer_parseInt">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.7072370104038566 0.2927629895961435</probabilities>
+		</cpt>
+		<cpt id="TryCatchStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.7026574484772714 0.2973425515227287</probabilities>
+		</cpt>
+		<cpt id="CharDataType">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.6510454437160591 0.3489545562839409</probabilities>
+		</cpt>
+		<cpt id="nullInitialization">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.4156038519431924 0.5843961480568077</probabilities>
+		</cpt>
+		<cpt id="null">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.4156038519431924 0.5843961480568077</probabilities>
+		</cpt>
+		<cpt id="StringInitializationStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.8756974868357348 0.1243025131642652</probabilities>
+		</cpt>
+		<cpt id="java_lang_Double_parseDouble">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.3992950849554809 0.6007049150445191</probabilities>
+		</cpt>
+		<cpt id="FinalFieldSpecifier">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.419739951075702 0.5802600489242981</probabilities>
+		</cpt>
+		<cpt id="InstanceFieldInitializationStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.7163550541649726 0.2836449458350275</probabilities>
+		</cpt>
+		<cpt id="java_lang_String_equalsIgnoreCase">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.5518151268663107 0.4481848731336893</probabilities>
+		</cpt>
+		<cpt id="java_lang_String_replace">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.5518151268663107 0.4481848731336893</probabilities>
+		</cpt>
+		<cpt id="MinusAssignmentExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.8471096582414737 0.1528903417585263</probabilities>
+		</cpt>
+		<cpt id="NotEqualExpression">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.928501707179241 0.07149829282075898</probabilities>
+		</cpt>
+		<cpt id="DoStatement">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<probabilities>0.5303935353237478 0.4696064646762522</probabilities>
+		</cpt>
+		<cpt id="AND_pcrs_2d_arrays_1">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement MultiDimensionalArrayDataType IntDataType NestedForLoops LessExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pcrs_2d_arrays_1">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_pcrs_2d_arrays_1</parents>
+			<probabilities>0.6799624824409665 0.3200375175590336 0.1948811768574559 0.8051188231425441</probabilities>
+		</cpt>
+		<cpt id="AND_pcrs_2d_arrays_2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement MultiDimensionalArrayDataType IntDataType ReturnStatement AddAssignmentExpression ArrayLength</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pcrs_2d_arrays_2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_pcrs_2d_arrays_2</parents>
+			<probabilities>0.9533506817680669 0.04664931823193306 0.06124565044250278 0.9387543495574971</probabilities>
+		</cpt>
+		<cpt id="AND_pcrs_2d_arrays_3">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement MultiDimensionalArrayDataType IntDataType NestedForLoops False True</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pcrs_2d_arrays_3">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_pcrs_2d_arrays_3</parents>
+			<probabilities>0.9502094114254097 0.04979058857459032 0.5220524876603876 0.4779475123396123</probabilities>
+		</cpt>
+		<cpt id="AND_array_4">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement IntDataType LessExpression IfElseIfStatement PostIncrementExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="array_4">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_array_4</parents>
+			<probabilities>0.6944645080651569 0.3055354919348431 0.01708324472820648 0.9829167552717935</probabilities>
+		</cpt>
+		<cpt id="AND_array_lst_1">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>java_util_ArrayList ForEachStatement GenericObjectCreationStatement java_util_ArrayList_add</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="array_lst_1">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_array_lst_1</parents>
+			<probabilities>0.8898923971616912 0.1101076028383088 0.006254466197858696 0.9937455338021413</probabilities>
+		</cpt>
+		<cpt id="AND_arrays_1">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement IntDataType ArrayLength ModulusExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="arrays_1">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_arrays_1</parents>
+			<probabilities>0.9613049576936127 0.03869504230638723 0.01883762062709778 0.9811623793729022</probabilities>
+		</cpt>
+		<cpt id="AND_arrays_2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement ReturnStatement AddAssignmentExpression ArrayLength IfElseStatement DoubleDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="arrays_2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_arrays_2</parents>
+			<probabilities>0.0801199541129087 0.9198800458870913 0.01136688347135907 0.9886331165286409</probabilities>
+		</cpt>
+		<cpt id="AND_arrays_3">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement ReturnStatement ArrayLength False True GreaterExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="arrays_3">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_arrays_3</parents>
+			<probabilities>0.8181687571076425 0.1818312428923575 0.009541635845796153 0.9904583641542037</probabilities>
+		</cpt>
+		<cpt id="AND_check_start_end_character">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>java_lang_String_charAt AndExpression ObjectMethodInvocation</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="check_start_end_character">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_check_start_end_character</parents>
+			<probabilities>0.5339364877469018 0.4660635122530982 0.03192277589445097 0.9680772241055491</probabilities>
+		</cpt>
+		<cpt id="AND_compute_average">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>DoubleDataType ExplicitTypeCasting</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="compute_average">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_compute_average</parents>
+			<probabilities>0.7106243660800701 0.2893756339199299 0.07088609802785235 0.9291139019721476</probabilities>
+		</cpt>
+		<cpt id="AND_days_to_week_conversion">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ModulusExpression</parents>
+			<probabilities>1 0 0 1</probabilities>
+		</cpt>
+		<cpt id="days_to_week_conversion">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_days_to_week_conversion</parents>
+			<probabilities>0.7509766177353396 0.2490233822646603 0.01975435733599096 0.980245642664009</probabilities>
+		</cpt>
+		<cpt id="AND_end_characters">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ObjectMethodInvocation java_lang_String_equals StringVariable ActualMethodParameter</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="end_characters">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_end_characters</parents>
+			<probabilities>0.9068837388309443 0.09311626116905566 0.1252002884285411 0.8747997115714589</probabilities>
+		</cpt>
+		<cpt id="AND_first_half">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>java_lang_String_substring DivideExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="first_half">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_first_half</parents>
+			<probabilities>0.9068005444615921 0.09319945553840796 0.1322576363823863 0.8677423636176138</probabilities>
+		</cpt>
+		<cpt id="AND_first_last_swap">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>java_lang_String_charAt ObjectMethodInvocation java_lang_String_substring</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="first_last_swap">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_first_last_swap</parents>
+			<probabilities>0.2782558559094177 0.7217441440905823 0.008649387761641071 0.9913506122383589</probabilities>
+		</cpt>
+		<cpt id="AND_for1_coding">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>LessExpression ForStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="for1_coding">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_for1_coding</parents>
+			<probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
+		</cpt>
+		<cpt id="AND_for2_coding">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ForStatement LessEqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="for2_coding">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_for2_coding</parents>
+			<probabilities>0.6731234379492983 0.3268765620507017 0.02521556591307299 0.9747844340869271</probabilities>
+		</cpt>
+		<cpt id="AND_for3_coding">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>LessExpression java_lang_String_length</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="for3_coding">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_for3_coding</parents>
+			<probabilities>0.541468670117513 0.458531329882487 0.2889223025822214 0.7110776974177786</probabilities>
+		</cpt>
+		<cpt id="AND_for4_coding">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AddAssignmentExpression java_lang_String_length</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="for4_coding">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_for4_coding</parents>
+			<probabilities>0.7517350729848842 0.2482649270151157 0.02526204732052734 0.9747379526794727</probabilities>
+		</cpt>
+		<cpt id="AND_greenTicket">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>IfElseIfStatement EqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="greenTicket">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_greenTicket</parents>
+			<probabilities>0.821101514594871 0.1788984854051289 0.01254418195663484 0.9874558180433651</probabilities>
+		</cpt>
+		<cpt id="AND_in1To10">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>False True IfElseStatement GreaterEqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="in1To10">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_in1To10</parents>
+			<probabilities>0.4394271095638312 0.5605728904361688 0.006411152642522022 0.993588847357478</probabilities>
+		</cpt>
+		<cpt id="AND_in_order">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AndExpression NotExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="in_order">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_in_order</parents>
+			<probabilities>0.4210835023497173 0.5789164976502826 0.05153394806005077 0.9484660519399493</probabilities>
+		</cpt>
+		<cpt id="AND_inheritance_1">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>SuperclassConstructorCall ConstructorDefinition PublicConstructorSpecifier ExtendsSpecification PrivateFieldSpecifier FormalMethodParameter</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="inheritance_1">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_inheritance_1</parents>
+			<probabilities>0.9000065178224916 0.09999348217750846 0.06468704675789065 0.9353129532421093</probabilities>
+		</cpt>
+		<cpt id="AND_inheritance_2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>SuperclassMethodCall SuperReference PublicMethodSpecifier MethodDefinition</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="inheritance_2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_inheritance_2</parents>
+			<probabilities>0.8997168926290597 0.1002831073709403 0.00833355304439028 0.9916664469556097</probabilities>
+		</cpt>
+		<cpt id="AND_is_special">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ModulusExpression OrExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="is_special">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_is_special</parents>
+			<probabilities>0.4611705053025825 0.5388294946974176 0.3566242190084231 0.6433757809915769</probabilities>
+		</cpt>
+		<cpt id="AND_love6">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>OrExpression AddExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="love6">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_love6</parents>
+			<probabilities>0.6311155030515058 0.3688844969484941 0.04831177599972727 0.9516882240002728</probabilities>
+		</cpt>
+		<cpt id="AND_make_out_word">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ObjectMethodInvocation java_lang_String_substring</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="make_out_word">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_make_out_word</parents>
+			<probabilities>0.5184703294538101 0.4815296705461898 0.3070159717208015 0.6929840282791986</probabilities>
+		</cpt>
+		<cpt id="AND_nested_loops_1">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>NestedForLoops LessEqualExpression java_lang_System_out_print java_lang_System_out_println</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="nested_loops_1">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_nested_loops_1</parents>
+			<probabilities>0.3146398905947289 0.685360109405271 0.1275694292605326 0.8724305707394674</probabilities>
+		</cpt>
+		<cpt id="AND_nested_loops_2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>NestedForLoops LessEqualExpression java_lang_System_out_print java_lang_System_out_println</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="nested_loops_2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_nested_loops_2</parents>
+			<probabilities>0.9061066680243646 0.09389333197563539 0.02400040598119196 0.975999594018808</probabilities>
+		</cpt>
+		<cpt id="AND_non_start">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ObjectMethodInvocation java_lang_String_substring</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="non_start">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_non_start</parents>
+			<probabilities>0.584358713182571 0.415641286817429 0.01322650506593104 0.986773494934069</probabilities>
+		</cpt>
+		<cpt id="AND_object_classes_1">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>DoubleDataType ExplicitTypeCasting FormalMethodParameter PublicClassSpecifier</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="object_classes_1">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_object_classes_1</parents>
+			<probabilities>0.923304922377525 0.07669507762247489 0.3263993818210492 0.6736006181789509</probabilities>
+		</cpt>
+		<cpt id="AND_object_classes_2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>DoubleDataType PrivateFieldSpecifier FormalMethodParameter VoidDataType ThisReference InstanceFieldInvocation</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="object_classes_2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_object_classes_2</parents>
+			<probabilities>0.9079994777218918 0.09200052227810829 0.4719887711271495 0.5280112288728506</probabilities>
+		</cpt>
+		<cpt id="AND_object_classes_3">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>StringVariable ConstructorDefinition PublicConstructorSpecifier ThisReference InstanceFieldInvocation StringDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="object_classes_3">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_object_classes_3</parents>
+			<probabilities>0.9008453380617945 0.0991546619382055 0.2403304546459256 0.7596695453540744</probabilities>
+		</cpt>
+		<cpt id="AND_object_classes_4">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>DoubleDataType PrivateFieldSpecifier StringDataType InstanceField OverridingToString SimpleVariable</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="object_classes_4">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_object_classes_4</parents>
+			<probabilities>0.9012011412824958 0.09879885871750413 0.2191516991741019 0.7808483008258982</probabilities>
+		</cpt>
+		<cpt id="AND_percentage_correctness">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ExplicitTypeCasting DivideExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="percentage_correctness">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_percentage_correctness</parents>
+			<probabilities>0.3176244088651973 0.6823755911348027 0.01152568985863483 0.9884743101413651</probabilities>
+		</cpt>
+		<cpt id="AND_rectangle_perimeter">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>MultiplyExpression</parents>
+			<probabilities>1 0 0 1</probabilities>
+		</cpt>
+		<cpt id="rectangle_perimeter">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_rectangle_perimeter</parents>
+			<probabilities>0.5744548430609251 0.4255451569390749 0.1389853321769202 0.8610146678230797</probabilities>
+		</cpt>
+		<cpt id="AND_repeat_last_char">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>java_lang_String_charAt StringDataType StringAddition StringLiteral</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="repeat_last_char">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_repeat_last_char</parents>
+			<probabilities>0.8942255986588298 0.1057744013411702 0.2753540662884407 0.7246459337115593</probabilities>
+		</cpt>
+		<cpt id="AND_second_in_days">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>MultiplyExpression</parents>
+			<probabilities>1 0 0 1</probabilities>
+		</cpt>
+		<cpt id="second_in_days">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_second_in_days</parents>
+			<probabilities>0.3439746725590606 0.6560253274409394 0.01322084678613846 0.9867791532138616</probabilities>
+		</cpt>
+		<cpt id="AND_sortaSum">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AndExpression GreaterEqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="sortaSum">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_sortaSum</parents>
+			<probabilities>0.6045318145863391 0.3954681854136609 0.0125197852489609 0.9874802147510392</probabilities>
+		</cpt>
+		<cpt id="AND_squirrel_play">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>GreaterEqualExpression NotExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="squirrel_play">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_squirrel_play</parents>
+			<probabilities>0.8497330916418299 0.1502669083581701 0.09536409127948074 0.9046359087205192</probabilities>
+		</cpt>
+		<cpt id="AND_twoAsOne">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>False True IfElseStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="twoAsOne">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_twoAsOne</parents>
+			<probabilities>0.9735226370343398 0.0264773629656602 0.2373680220196819 0.7626319779803181</probabilities>
+		</cpt>
+		<cpt id="AND_while4_coding">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>DoubleDataType MultiplyExpression WhileStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="while4_coding">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_while4_coding</parents>
+			<probabilities>0.2951843103533419 0.7048156896466581 0.09150252315908911 0.9084974768409109</probabilities>
+		</cpt>
+		<cpt id="AND_while5_coding">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>LessExpression False True java_lang_String_charAt WhileStatement PostDecrementExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="while5_coding">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_while5_coding</parents>
+			<probabilities>0.9480135152116732 0.0519864847883267 0.09261325119214488 0.9073867488078551</probabilities>
+		</cpt>
+		<cpt id="AND_while1_coding">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AddAssignmentExpression WhileStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="while1_coding">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_while1_coding</parents>
+			<probabilities>0.2731217771306121 0.726878222869388 0.005648489916286602 0.9943515100837134</probabilities>
+		</cpt>
+		<cpt id="AND_while2_coding">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>GreaterExpression WhileStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="while2_coding">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_while2_coding</parents>
+			<probabilities>0.9305816154691864 0.0694183845308135 0.006695111790153523 0.9933048882098464</probabilities>
+		</cpt>
+		<cpt id="AND_while3_coding">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AddAssignmentExpression WhileStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="while3_coding">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_while3_coding</parents>
+			<probabilities>0.6231521305361128 0.3768478694638873 0.08319106855697428 0.9168089314430258</probabilities>
+		</cpt>
+		<cpt id="AND_without2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ObjectMethodInvocation java_lang_String_equals StringVariable java_lang_String_substring java_lang_String_length StringDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="without2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_without2</parents>
+			<probabilities>0.8557123518992674 0.1442876481007325 0.005013445528372717 0.9949865544716273</probabilities>
+		</cpt>
+		<cpt id="AND_pretest_array">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement LessExpression AddAssignmentExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pretest_array">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_pretest_array</parents>
+			<probabilities>0.8999999999999999 0.1000000000000001 0.1000000000000002 0.8999999999999999</probabilities>
+		</cpt>
+		<cpt id="AND_pretest_boolean">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AndExpression BooleanDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pretest_boolean">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_pretest_boolean</parents>
+			<probabilities>0.9000000000000001 0.09999999999999994 0.1 0.8999999999999999</probabilities>
+		</cpt>
+		<cpt id="AND_pretest_ifelse">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>IfElseIfStatement IfElseStatement GreaterEqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pretest_ifelse">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_pretest_ifelse</parents>
+			<probabilities>0.9 0.1 0.09999999999999962 0.9000000000000004</probabilities>
+		</cpt>
+		<cpt id="AND_pretest_method">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ReturnStatement java_lang_String_length FormalMethodParameter MethodDefinition</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pretest_method">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_pretest_method</parents>
+			<probabilities>0.8999999999999999 0.1 0.09999999999999988 0.9000000000000001</probabilities>
+		</cpt>
+		<cpt id="AND_pretest_nested_for">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>NestedForLoops LessEqualExpression java_lang_System_out_println StringLiteral</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pretest_nested_for">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_pretest_nested_for</parents>
+			<probabilities>0.9 0.1 0.09999999999999987 0.9000000000000002</probabilities>
+		</cpt>
+		<cpt id="AND_pretest_qj_2darray">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>MultiDimensionalArrayDataType java_lang_System_out_print ArrayInitializationStatement ArrayInitializer ArrayVariable</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pretest_qj_2darray">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_pretest_qj_2darray</parents>
+			<probabilities>0.8999999999999998 0.1000000000000002 0.09999999999999992 0.9</probabilities>
+		</cpt>
+		<cpt id="AND_pretest_qj_array">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayLength MultiplyExpression ArrayCreationStatement ArrayDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pretest_qj_array">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_pretest_qj_array</parents>
+			<probabilities>0.8999999999999998 0.1000000000000001 0.1000000000000001 0.8999999999999999</probabilities>
+		</cpt>
+		<cpt id="AND_pretest_qj_for">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ForStatement AddExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pretest_qj_for">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_pretest_qj_for</parents>
+			<probabilities>0.8999999999999998 0.1000000000000003 0.1000000000000002 0.8999999999999998</probabilities>
+		</cpt>
+		<cpt id="AND_pretest_qj_if">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ModulusExpression IfStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pretest_qj_if">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_pretest_qj_if</parents>
+			<probabilities>0.8999999999999999 0.1000000000000002 0.1000000000000001 0.8999999999999999</probabilities>
+		</cpt>
+		<cpt id="AND_pretest_qj_while">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>WhileStatement PostDecrementExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pretest_qj_while">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_pretest_qj_while</parents>
+			<probabilities>0.9000000000000001 0.09999999999999998 0.09999999999999989 0.9000000000000001</probabilities>
+		</cpt>
+		<cpt id="AND_BmiCalculator2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>DoubleDataType ExplicitTypeCasting MultiplyExpression java_lang_Math_round java_lang_Math_pow</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="BmiCalculator2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_BmiCalculator2</parents>
+			<probabilities>0.8920318957950761 0.1079681042049239 0.2188372793951877 0.7811627206048123</probabilities>
+		</cpt>
+		<cpt id="AND_FahrenheitToCelsius">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>DoubleDataType MultiplyExpression Constant ConstantInitializationStatement SubtractExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="FahrenheitToCelsius">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_FahrenheitToCelsius</parents>
+			<probabilities>0.9642536982009381 0.03574630179906195 0.1625947682845999 0.8374052317154</probabilities>
+		</cpt>
+		<cpt id="AND_PythagoreanTheorem2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>DoubleDataType java_lang_Math_pow SubtractExpression java_lang_Math_sqrt</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="PythagoreanTheorem2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_PythagoreanTheorem2</parents>
+			<probabilities>0.9899646992714847 0.01003530072851528 0.02861278955909729 0.9713872104409027</probabilities>
+		</cpt>
+		<cpt id="AND_DisplayTime2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ModulusExpression ObjectMethodInvocation DivideExpression LongDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="DisplayTime2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_DisplayTime2</parents>
+			<probabilities>0.9161344110004928 0.08386558899950719 0.03300615176715794 0.9669938482328421</probabilities>
+		</cpt>
+		<cpt id="AND_JVocabulary2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>IfElseIfStatement java_util_ArrayList GenericObjectCreationStatement java_util_ArrayList_add java_util_ArrayList_size OnDemandImport ThrowsSpecification</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JVocabulary2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JVocabulary2</parents>
+			<probabilities>0.8998051159780169 0.100194884021983 0.5352636687978189 0.4647363312021811</probabilities>
+		</cpt>
+		<cpt id="AND_JArrayBasic2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ForEachStatement DoubleDataType java_lang_System_out_print ArrayInitializer</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JArrayBasic2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JArrayBasic2</parents>
+			<probabilities>0.9566044487831395 0.04339555121686042 0.4892870743112472 0.5107129256887528</probabilities>
+		</cpt>
+		<cpt id="AND_JArrayBasic3">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ForEachStatement java_lang_System_out_print ArrayInitializationStatement ArrayInitializer</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JArrayBasic3">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JArrayBasic3</parents>
+			<probabilities>0.9929432795103301 0.007056720489669857 0.311268012711807 0.6887319872881928</probabilities>
+		</cpt>
+		<cpt id="AND_JArraySwapAdjacentElements">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement ArrayLength ForEachStatement AddExpression java_lang_System_out_print</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JArraySwapAdjacentElements">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JArraySwapAdjacentElements</parents>
+			<probabilities>0.8947948357960485 0.1052051642039515 0.2070768399639595 0.7929231600360406</probabilities>
+		</cpt>
+		<cpt id="AND_JArrayFillUserInput">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement ForEachStatement java_lang_System_out_print ArrayVariable ArrayCreationStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JArrayFillUserInput">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JArrayFillUserInput</parents>
+			<probabilities>0.9905764297958737 0.009423570204126271 0.3004059164490643 0.6995940835509358</probabilities>
+		</cpt>
+		<cpt id="AND_JArrayMin">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement LessExpression ArrayLength ArrayInitializer IfStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JArrayMin">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JArrayMin</parents>
+			<probabilities>0.9863427826446691 0.01365721735533093 0.2736402513932508 0.7263597486067492</probabilities>
+		</cpt>
+		<cpt id="AND_JAverageArrayElements">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayLength ForEachStatement IfElseStatement ExplicitTypeCasting EqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JAverageArrayElements">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JAverageArrayElements</parents>
+			<probabilities>0.8600187663384239 0.1399812336615761 0.3606487108531877 0.6393512891468124</probabilities>
+		</cpt>
+		<cpt id="AND_JArrayRotateLeftTwice">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement ReturnStatement ArrayLength ForEachStatement java_lang_System_out_print SubtractExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JArrayRotateLeftTwice">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JArrayRotateLeftTwice</parents>
+			<probabilities>0.8360845033434409 0.1639154966565592 0.1473224982819167 0.8526775017180833</probabilities>
+		</cpt>
+		<cpt id="AND_JArrayRotateRight">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement ReturnStatement ArrayLength PostDecrementExpression SubtractExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JArrayRotateRight">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JArrayRotateRight</parents>
+			<probabilities>0.6520621190628189 0.3479378809371813 0.1376158692748964 0.8623841307251036</probabilities>
+		</cpt>
+		<cpt id="AND_JArrayRotateRightTwice">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement ReturnStatement ArrayLength PostDecrementExpression SubtractExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JArrayRotateRightTwice">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JArrayRotateRightTwice</parents>
+			<probabilities>0.9805023197191678 0.01949768028083223 0.01785624364865684 0.9821437563513431</probabilities>
+		</cpt>
+		<cpt id="AND_JSearchArrayCountsEach">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement ArrayLength DoubleDataType ArrayInitializer ArrayVariable ArrayDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JSearchArrayCountsEach">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JSearchArrayCountsEach</parents>
+			<probabilities>0.8907766812073097 0.1092233187926903 0.01814873718418148 0.9818512628158185</probabilities>
+		</cpt>
+		<cpt id="AND_JSearchArrayTotalCounts">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ForEachStatement DoubleDataType ArrayInitializationStatement ArrayInitializer ArrayVariable</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JSearchArrayTotalCounts">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JSearchArrayTotalCounts</parents>
+			<probabilities>0.9433283301329159 0.05667166986708407 0.08133963650975949 0.9186603634902404</probabilities>
+		</cpt>
+		<cpt id="AND_JTemperatureListDaysAboveThreshold">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement ArrayLength True PostIncrementExpression ForStatement ArrayCreationStatement IfStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JTemperatureListDaysAboveThreshold">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JTemperatureListDaysAboveThreshold</parents>
+			<probabilities>0.9609097539805632 0.03909024601943679 0.1372853275785191 0.8627146724214808</probabilities>
+		</cpt>
+		<cpt id="AND_JArrays2dBasic2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement MultiDimensionalArrayDataType NestedForLoops PostIncrementExpression ForStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JArrays2dBasic2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JArrays2dBasic2</parents>
+			<probabilities>0.9228178396047489 0.07718216039525114 0.2960050820132589 0.703994917986741</probabilities>
+		</cpt>
+		<cpt id="AND_JArrays2dBasic3">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement MultiDimensionalArrayDataType NestedForLoops PostIncrementExpression ForStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JArrays2dBasic3">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JArrays2dBasic3</parents>
+			<probabilities>0.9681826753332512 0.03181732466674891 0.567109209730552 0.432890790269448</probabilities>
+		</cpt>
+		<cpt id="AND_JPrintMedalsRowColumnTotal">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement MultiDimensionalArrayDataType ArrayInitializationStatement ArrayInitializer ArrayVariable</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JPrintMedalsRowColumnTotal">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JPrintMedalsRowColumnTotal</parents>
+			<probabilities>0.4398257880977676 0.5601742119022324 0.05702030685223148 0.9429796931477684</probabilities>
+		</cpt>
+		<cpt id="AND_JSodaSurverySodaAvg">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement MultiDimensionalArrayDataType PostIncrementExpression ExplicitTypeCasting ForStatement ArrayCreationStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JSodaSurverySodaAvg">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JSodaSurverySodaAvg</parents>
+			<probabilities>0.9155607672317583 0.08443923276824179 0.1528100096124858 0.8471899903875141</probabilities>
+		</cpt>
+		<cpt id="AND_JSodaSurverySodaRespondentAvg">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement PostIncrementExpression ExplicitTypeCasting ForStatement ArrayVariable ArrayCreationStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JSodaSurverySodaRespondentAvg">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JSodaSurverySodaRespondentAvg</parents>
+			<probabilities>0.9445769415131038 0.05542305848689622 0.02158576700338025 0.9784142329966198</probabilities>
+		</cpt>
+		<cpt id="AND_VendingMachine2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ModulusExpression DivideExpression MultiplyExpression Constant ConstantInitializationStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="VendingMachine2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_VendingMachine2</parents>
+			<probabilities>0.9750579886188188 0.02494201138118119 0.5163495147256566 0.4836504852743433</probabilities>
+		</cpt>
+		<cpt id="AND_JDecInc2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AddExpression PreDecrementExpression PreIncrementExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JDecInc2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JDecInc2</parents>
+			<probabilities>0.8915611178441811 0.1084388821558189 0.2880601289041773 0.7119398710958228</probabilities>
+		</cpt>
+		<cpt id="AND_JDecInc3">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>PostDecrementExpression PreDecrementExpression PreIncrementExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JDecInc3">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JDecInc3</parents>
+			<probabilities>0.9567289922548619 0.04327100774513815 0.08021176879543926 0.9197882312045608</probabilities>
+		</cpt>
+		<cpt id="AND_JFailCourse2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>LessExpression ObjectMethodInvocation OrExpression BooleanDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JFailCourse2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JFailCourse2</parents>
+			<probabilities>0.9971240239951658 0.002875976004834265 0.04886719480267179 0.9511328051973282</probabilities>
+		</cpt>
+		<cpt id="AND_JFailCourse3">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>GreaterExpression ObjectMethodInvocation NotExpression BooleanDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JFailCourse3">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JFailCourse3</parents>
+			<probabilities>0.9672761501565681 0.03272384984343188 0.2447604763501719 0.7552395236498279</probabilities>
+		</cpt>
+		<cpt id="AND_JBooleanDryHot2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ObjectMethodInvocation OrExpression BooleanDataType ImportStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JBooleanDryHot2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JBooleanDryHot2</parents>
+			<probabilities>0.9969347425349817 0.003065257465018336 0.3863414748430501 0.6136585251569499</probabilities>
+		</cpt>
+		<cpt id="AND_JBooleanDryHot3">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AndExpression ObjectMethodInvocation NotExpression BooleanDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JBooleanDryHot3">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JBooleanDryHot3</parents>
+			<probabilities>0.9965896282840694 0.003410371715930576 0.2378980561349806 0.7621019438650194</probabilities>
+		</cpt>
+		<cpt id="AND_JBooleanDryHot4">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>NotExpression OrExpression BooleanDataType XORExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JBooleanDryHot4">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JBooleanDryHot4</parents>
+			<probabilities>0.9285639042199052 0.07143609578009484 0.02399294387214975 0.9760070561278503</probabilities>
+		</cpt>
+		<cpt id="AND_JPhoneAge2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ObjectMethodInvocation NotExpression OrExpression BooleanDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JPhoneAge2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JPhoneAge2</parents>
+			<probabilities>0.6862957835450765 0.3137042164549235 0.357017388461347 0.642982611538653</probabilities>
+		</cpt>
+		<cpt id="AND_JRentCar2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AndExpression GreaterEqualExpression NotExpression BooleanDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JRentCar2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JRentCar2</parents>
+			<probabilities>0.8571103757099627 0.1428896242900372 0.6516854700031152 0.3483145299968848</probabilities>
+		</cpt>
+		<cpt id="AND_JRentCar3">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AndExpression GreaterEqualExpression OrExpression BooleanDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JRentCar3">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JRentCar3</parents>
+			<probabilities>0.8260378544217907 0.1739621455782093 0.2803557510959128 0.7196442489040871</probabilities>
+		</cpt>
+		<cpt id="AND_JThreeBoolean2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AndExpression ObjectMethodInvocation NotExpression BooleanDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JThreeBoolean2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JThreeBoolean2</parents>
+			<probabilities>0.2763922476475794 0.7236077523524207 0.01602119501618044 0.9839788049838196</probabilities>
+		</cpt>
+		<cpt id="AND_JThreeBoolean3">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AndExpression ObjectMethodInvocation EqualExpression BooleanDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JThreeBoolean3">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JThreeBoolean3</parents>
+			<probabilities>0.7437919242024817 0.2562080757975182 0.1470964311719695 0.8529035688280305</probabilities>
+		</cpt>
+		<cpt id="AND_JCheckAge2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>False True StringVariable NotExpression java_lang_Integer_parseInt TryCatchStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JCheckAge2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JCheckAge2</parents>
+			<probabilities>0.9666702373747406 0.03332976262525948 0.06598782311444848 0.9340121768855515</probabilities>
+		</cpt>
+		<cpt id="AND_JCheckProductCode2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>java_lang_String_charAt java_lang_String_equals java_lang_String_substring NotExpression java_lang_Integer_parseInt CharDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JCheckProductCode2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JCheckProductCode2</parents>
+			<probabilities>0.9395792178664883 0.06042078213351165 0.2016614301169128 0.7983385698830872</probabilities>
+		</cpt>
+		<cpt id="AND_JInputStat2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>StringVariable java_lang_String_length IfStatement OnDemandImport nullInitialization null StringInitializationStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JInputStat2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JInputStat2</parents>
+			<probabilities>0.8779865285465742 0.1220134714534258 0.2589554007952137 0.7410445992047863</probabilities>
+		</cpt>
+		<cpt id="AND_JWorkHours2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ArrayElement StringVariable java_lang_Integer_parseInt TryCatchStatement nullInitialization null java_lang_Double_parseDouble</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JWorkHours2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JWorkHours2</parents>
+			<probabilities>0.915631853728349 0.08436814627165105 0.1931633354766725 0.8068366645233275</probabilities>
+		</cpt>
+		<cpt id="AND_JForOne2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>LessExpression PostIncrementExpression ForStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JForOne2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JForOne2</parents>
+			<probabilities>0.7883830592323178 0.2116169407676823 0.07348309938484676 0.9265169006151531</probabilities>
+		</cpt>
+		<cpt id="AND_JForThree2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AddAssignmentExpression ForStatement LessEqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JForThree2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JForThree2</parents>
+			<probabilities>0.9904472503846776 0.009552749615322308 0.08479672171383079 0.9152032782861692</probabilities>
+		</cpt>
+		<cpt id="AND_JForTwo2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>PostIncrementExpression ForStatement LessEqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JForTwo2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JForTwo2</parents>
+			<probabilities>0.8330228481848954 0.1669771518151046 0.6662362823184748 0.3337637176815251</probabilities>
+		</cpt>
+		<cpt id="AND_JWriteSquaresOdd">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>LessExpression AddAssignmentExpression ForStatement MultiplyExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JWriteSquaresOdd">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JWriteSquaresOdd</parents>
+			<probabilities>0.9948040427014534 0.005195957298546633 0.4103415991716299 0.5896584008283701</probabilities>
+		</cpt>
+		<cpt id="AND_JWriteSquaresRange">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>PostIncrementExpression ForStatement LessEqualExpression MultiplyExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JWriteSquaresRange">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JWriteSquaresRange</parents>
+			<probabilities>0.9915988302569836 0.008401169743016499 0.2780675998936742 0.7219324001063259</probabilities>
+		</cpt>
+		<cpt id="AND_JIfElseIfGrade2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>IfElseIfStatement IfElseStatement java_lang_String_equals StringVariable</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JIfElseIfGrade2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JIfElseIfGrade2</parents>
+			<probabilities>0.9350025378649186 0.06499746213508137 0.6773115177211523 0.3226884822788477</probabilities>
+		</cpt>
+		<cpt id="AND_ifElseOddEven">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ModulusExpression IfElseStatement ObjectMethodInvocation EqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="ifElseOddEven">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_ifElseOddEven</parents>
+			<probabilities>0.7606719150817653 0.2393280849182347 0.8410483238053463 0.1589516761946537</probabilities>
+		</cpt>
+		<cpt id="AND_JIfElseWages2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AddAssignmentExpression IfElseStatement DoubleDataType MultiplyExpression Constant ConstantInitializationStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JIfElseWages2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JIfElseWages2</parents>
+			<probabilities>0.5083434623244273 0.4916565376755727 0.3340630482731445 0.6659369517268555</probabilities>
+		</cpt>
+		<cpt id="AND_JNestedIfMaxOfThree">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>IfElseStatement GreaterExpression ObjectMethodInvocation SimpleVariable</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JNestedIfMaxOfThree">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JNestedIfMaxOfThree</parents>
+			<probabilities>0.9939734791915386 0.006026520808461447 0.1713211555275972 0.8286788444724028</probabilities>
+		</cpt>
+		<cpt id="AND_JNestedIfTemperature2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>IfElseIfStatement IfElseStatement DoubleDataType GreaterExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JNestedIfTemperature2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JNestedIfTemperature2</parents>
+			<probabilities>0.9695959677583481 0.03040403224165197 0.4085924231934199 0.5914075768065802</probabilities>
+		</cpt>
+		<cpt id="AND_AnimalTester2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ConstructorDefinition SuperclassMethodCall SuperReference ThisReference InstanceFieldInvocation OverridingToString</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="AnimalTester2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_AnimalTester2</parents>
+			<probabilities>0.9002886418923227 0.09971135810767734 0.2680863404906439 0.7319136595093562</probabilities>
+		</cpt>
+		<cpt id="AND_InheritancePointTester2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ReturnStatement SuperclassMethodCall SuperReference ThisReference InstanceFieldInvocation OverridingToString</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="InheritancePointTester2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_InheritancePointTester2</parents>
+			<probabilities>0.9007635331777559 0.0992364668222441 0.3727256516591463 0.6272743483408537</probabilities>
+		</cpt>
+		<cpt id="AND_JRepeatedSequence2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>NestedForLoops ForStatement LessEqualExpression java_lang_System_out_print</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JRepeatedSequence2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JRepeatedSequence2</parents>
+			<probabilities>0.9800684548525365 0.01993154514746354 0.1568214114588746 0.8431785885411254</probabilities>
+		</cpt>
+		<cpt id="AND_JStars2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>NestedForLoops PostIncrementExpression ForStatement LessEqualExpression SubtractExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JStars2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JStars2</parents>
+			<probabilities>0.483647971047519 0.516352028952481 0.1229313343501149 0.8770686656498851</probabilities>
+		</cpt>
+		<cpt id="AND_Transactions2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ReturnStatement DoubleDataType ConstructorDefinition PublicConstructorSpecifier PrivateFieldSpecifier InstanceField LongDataType FinalFieldSpecifier</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="Transactions2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_Transactions2</parents>
+			<probabilities>0.9006762696325544 0.09932373036744557 0.3244579244459758 0.6755420755540242</probabilities>
+		</cpt>
+		<cpt id="AND_LoanTester2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ReturnStatement DoubleDataType PrivateFieldSpecifier ThisReference InstanceFieldInvocation InstanceField</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="LoanTester2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_LoanTester2</parents>
+			<probabilities>0.9088439456177385 0.09115605438226143 0.4043023678430716 0.5956976321569284</probabilities>
+		</cpt>
+		<cpt id="AND_PointTester2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ReturnStatement PrivateFieldSpecifier InstanceField SimpleVariable java_lang_Math_sqrt</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="PointTester2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_PointTester2</parents>
+			<probabilities>0.8743873626676039 0.1256126373323961 0.01077767374547122 0.9892223262545288</probabilities>
+		</cpt>
+		<cpt id="AND_TVTester2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>False AndExpression PrivateFieldSpecifier InstanceField IfStatement InstanceFieldInitializationStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="TVTester2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_TVTester2</parents>
+			<probabilities>0.9709527822138566 0.02904721778614331 0.4123278980572207 0.5876721019427792</probabilities>
+		</cpt>
+		<cpt id="AND_StringAddition2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AddExpression StringDataType StringAddition</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="StringAddition2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_StringAddition2</parents>
+			<probabilities>0.9240443091057053 0.07595569089429473 0.390623694574287 0.6093763054257131</probabilities>
+		</cpt>
+		<cpt id="AND_JCharAt2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>java_lang_String_charAt StringVariable CharDataType StringInitializationStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JCharAt2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JCharAt2</parents>
+			<probabilities>0.9478878110064182 0.05211218899358177 0.6841093174232783 0.3158906825767218</probabilities>
+		</cpt>
+		<cpt id="AND_JStringEqual2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>StringInitializationStatement java_lang_String_equalsIgnoreCase java_lang_String_replace</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JStringEqual2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JStringEqual2</parents>
+			<probabilities>0.9234160387964767 0.07658396120352325 0.2657410800271056 0.7342589199728944</probabilities>
+		</cpt>
+		<cpt id="AND_JEscapeChar2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>java_lang_System_out_print StringDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JEscapeChar2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JEscapeChar2</parents>
+			<probabilities>0.857067694814637 0.1429323051853631 0.2410277269132628 0.7589722730867371</probabilities>
+		</cpt>
+		<cpt id="AND_JEscapeChar3">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>java_lang_System_out_print StringDataType</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JEscapeChar3">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JEscapeChar3</parents>
+			<probabilities>0.2320012577050299 0.7679987422949701 0.1049562392355334 0.8950437607644666</probabilities>
+		</cpt>
+		<cpt id="AND_Initials2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>StringVariable java_lang_String_substring java_lang_String_length StringInitializationStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="Initials2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_Initials2</parents>
+			<probabilities>0.9771206512266878 0.02287934877331217 0.1907924101862508 0.8092075898137491</probabilities>
+		</cpt>
+		<cpt id="AND_Initials3">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>StringVariable java_lang_String_substring java_lang_String_length StringInitializationStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="Initials3">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_Initials3</parents>
+			<probabilities>0.9829490004978179 0.01705099950218226 0.6868682609053924 0.3131317390946077</probabilities>
+		</cpt>
+		<cpt id="AND_JLargestDivisor">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ModulusExpression SubtractExpression MinusAssignmentExpression NotEqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JLargestDivisor">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JLargestDivisor</parents>
+			<probabilities>0.9715356937902337 0.02846430620976627 0.007550298759686286 0.9924497012403137</probabilities>
+		</cpt>
+		<cpt id="AND_JInput2">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AndExpression LessEqualExpression GreaterEqualExpression WhileStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JInput2">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JInput2</parents>
+			<probabilities>0.9677026290313877 0.03229737096861227 0.7326600884629011 0.2673399115370989</probabilities>
+		</cpt>
+		<cpt id="AND_JInput3">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AndExpression LessEqualExpression GreaterEqualExpression WhileStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JInput3">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JInput3</parents>
+			<probabilities>0.2876507820212168 0.7123492179787831 0.4294570898968238 0.5705429101031761</probabilities>
+		</cpt>
+		<cpt id="AND_JInput4">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ModulusExpression GreaterEqualExpression OrExpression WhileStatement NotEqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JInput4">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JInput4</parents>
+			<probabilities>0.6251054256805791 0.374894574319421 0.169185327348468 0.8308146726515321</probabilities>
+		</cpt>
+		<cpt id="AND_JAverageDouble">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>IfElseStatement DoubleDataType EqualExpression GreaterEqualExpression SimpleVariable</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JAverageDouble">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JAverageDouble</parents>
+			<probabilities>0.7049933486580922 0.2950066513419078 0.3297918679484964 0.6702081320515035</probabilities>
+		</cpt>
+		<cpt id="AND_JAverageEvenNums">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ModulusExpression IfElseStatement DoubleDataType ExplicitTypeCasting EqualExpression NotEqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JAverageEvenNums">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JAverageEvenNums</parents>
+			<probabilities>0.9374856135736259 0.06251438642637408 0.3882449031146378 0.6117550968853622</probabilities>
+		</cpt>
+		<cpt id="AND_JAdjacentConsecutives">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>AndExpression EqualExpression IfStatement SubtractExpression NotEqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JAdjacentConsecutives">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JAdjacentConsecutives</parents>
+			<probabilities>0.7789108300446891 0.221089169955311 0.1347964405954265 0.8652035594045734</probabilities>
+		</cpt>
+		<cpt id="AND_JAdjacentGreater">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>DoubleDataType AndExpression WhileStatement IfStatement NotEqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JAdjacentGreater">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JAdjacentGreater</parents>
+			<probabilities>0.7157993964201925 0.2842006035798075 0.5148184897060096 0.4851815102939903</probabilities>
+		</cpt>
+		<cpt id="AND_JReverseNumber">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ModulusExpression SimpleVariable MultiplyExpression DoStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JReverseNumber">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JReverseNumber</parents>
+			<probabilities>0.779081231945297 0.220918768054703 0.06002239077138561 0.9399776092286143</probabilities>
+		</cpt>
+		<cpt id="AND_JSumDigits">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ModulusExpression DivideExpression SimpleVariable DoStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JSumDigits">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JSumDigits</parents>
+			<probabilities>0.9499210624010658 0.05007893759893427 0.6273483709243846 0.3726516290756154</probabilities>
+		</cpt>
+		<cpt id="AND_JWinPercentageInput">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>ExplicitTypeCasting DivideExpression LessEqualExpression OrExpression WhileStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JWinPercentageInput">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JWinPercentageInput</parents>
+			<probabilities>0.8769067500119511 0.123093249988049 0.2314538166844644 0.7685461833155356</probabilities>
+		</cpt>
+		<cpt id="AND_JWinPercentageWonEqual">
+			<state id="Learned" />
+			<state id="Unlearned" />
+			<parents>LessExpression ExplicitTypeCasting OrExpression AddExpression WhileStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="JWinPercentageWonEqual">
+			<state id="Correct" />
+			<state id="Wrong" />
+			<parents>AND_JWinPercentageWonEqual</parents>
+			<probabilities>0.9634983615413597 0.03650163845864028 0.2031828415635459 0.7968171584364542</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="SMILE Apr 16 2014" name="Unnamed" faultnameformat="nodestate">
+			<node id="ArrayElement">
+				<name>ArrayElement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="MultiDimensionalArrayDataType">
+				<name>MultiDimensionalArrayDataType</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="IntDataType">
+				<name>IntDataType</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="NestedForLoops">
+				<name>NestedForLoops</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="LessExpression">
+				<name>LessExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ReturnStatement">
+				<name>ReturnStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AddAssignmentExpression">
+				<name>AddAssignmentExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ArrayLength">
+				<name>ArrayLength</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="False">
+				<name>False</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="True">
+				<name>True</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="IfElseIfStatement">
+				<name>IfElseIfStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="PostIncrementExpression">
+				<name>PostIncrementExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_util_ArrayList">
+				<name>java_util_ArrayList</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ForEachStatement">
+				<name>ForEachStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="GenericObjectCreationStatement">
+				<name>GenericObjectCreationStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_util_ArrayList_add">
+				<name>java_util_ArrayList_add</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ModulusExpression">
+				<name>ModulusExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="IfElseStatement">
+				<name>IfElseStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="DoubleDataType">
+				<name>DoubleDataType</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="GreaterExpression">
+				<name>GreaterExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_lang_String_charAt">
+				<name>java_lang_String_charAt</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AndExpression">
+				<name>AndExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ObjectMethodInvocation">
+				<name>ObjectMethodInvocation</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ExplicitTypeCasting">
+				<name>ExplicitTypeCasting</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_lang_String_equals">
+				<name>java_lang_String_equals</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="StringVariable">
+				<name>StringVariable</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ActualMethodParameter">
+				<name>ActualMethodParameter</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_lang_String_substring">
+				<name>java_lang_String_substring</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="DivideExpression">
+				<name>DivideExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ForStatement">
+				<name>ForStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="LessEqualExpression">
+				<name>LessEqualExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_lang_String_length">
+				<name>java_lang_String_length</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="EqualExpression">
+				<name>EqualExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="GreaterEqualExpression">
+				<name>GreaterEqualExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="NotExpression">
+				<name>NotExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="SuperclassConstructorCall">
+				<name>SuperclassConstructorCall</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ConstructorDefinition">
+				<name>ConstructorDefinition</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="PublicConstructorSpecifier">
+				<name>PublicConstructorSpecifier</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ExtendsSpecification">
+				<name>ExtendsSpecification</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="PrivateFieldSpecifier">
+				<name>PrivateFieldSpecifier</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="FormalMethodParameter">
+				<name>FormalMethodParameter</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="SuperclassMethodCall">
+				<name>SuperclassMethodCall</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="SuperReference">
+				<name>SuperReference</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="PublicMethodSpecifier">
+				<name>PublicMethodSpecifier</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="MethodDefinition">
+				<name>MethodDefinition</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="OrExpression">
+				<name>OrExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AddExpression">
+				<name>AddExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_lang_System_out_print">
+				<name>java_lang_System_out_print</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_lang_System_out_println">
+				<name>java_lang_System_out_println</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="PublicClassSpecifier">
+				<name>PublicClassSpecifier</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="VoidDataType">
+				<name>VoidDataType</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ThisReference">
+				<name>ThisReference</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="InstanceFieldInvocation">
+				<name>InstanceFieldInvocation</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="StringDataType">
+				<name>StringDataType</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="InstanceField">
+				<name>InstanceField</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="OverridingToString">
+				<name>OverridingToString</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="SimpleVariable">
+				<name>SimpleVariable</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="MultiplyExpression">
+				<name>MultiplyExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="StringAddition">
+				<name>StringAddition</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="StringLiteral">
+				<name>StringLiteral</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="WhileStatement">
+				<name>WhileStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="PostDecrementExpression">
+				<name>PostDecrementExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="BooleanDataType">
+				<name>BooleanDataType</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ArrayInitializationStatement">
+				<name>ArrayInitializationStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ArrayInitializer">
+				<name>ArrayInitializer</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ArrayVariable">
+				<name>ArrayVariable</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ArrayCreationStatement">
+				<name>ArrayCreationStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ArrayDataType">
+				<name>ArrayDataType</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="IfStatement">
+				<name>IfStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_lang_Math_round">
+				<name>java_lang_Math_round</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_lang_Math_pow">
+				<name>java_lang_Math_pow</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="Constant">
+				<name>Constant</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ConstantInitializationStatement">
+				<name>ConstantInitializationStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="SubtractExpression">
+				<name>SubtractExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_lang_Math_sqrt">
+				<name>java_lang_Math_sqrt</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="LongDataType">
+				<name>LongDataType</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_util_ArrayList_size">
+				<name>java_util_ArrayList_size</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="OnDemandImport">
+				<name>OnDemandImport</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ThrowsSpecification">
+				<name>ThrowsSpecification</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="PreDecrementExpression">
+				<name>PreDecrementExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="PreIncrementExpression">
+				<name>PreIncrementExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ImportStatement">
+				<name>ImportStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="XORExpression">
+				<name>XORExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_lang_Integer_parseInt">
+				<name>java_lang_Integer_parseInt</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="TryCatchStatement">
+				<name>TryCatchStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="CharDataType">
+				<name>CharDataType</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="nullInitialization">
+				<name>nullInitialization</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="null">
+				<name>null</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="StringInitializationStatement">
+				<name>StringInitializationStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_lang_Double_parseDouble">
+				<name>java_lang_Double_parseDouble</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="FinalFieldSpecifier">
+				<name>FinalFieldSpecifier</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="InstanceFieldInitializationStatement">
+				<name>InstanceFieldInitializationStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_lang_String_equalsIgnoreCase">
+				<name>java_lang_String_equalsIgnoreCase</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="java_lang_String_replace">
+				<name>java_lang_String_replace</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="MinusAssignmentExpression">
+				<name>MinusAssignmentExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="NotEqualExpression">
+				<name>NotEqualExpression</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="DoStatement">
+				<name>DoStatement</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_pcrs_2d_arrays_1">
+				<name>AND_pcrs_2d_arrays_1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="pcrs_2d_arrays_1">
+				<name>pcrs_2d_arrays_1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_pcrs_2d_arrays_2">
+				<name>AND_pcrs_2d_arrays_2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="pcrs_2d_arrays_2">
+				<name>pcrs_2d_arrays_2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_pcrs_2d_arrays_3">
+				<name>AND_pcrs_2d_arrays_3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="pcrs_2d_arrays_3">
+				<name>pcrs_2d_arrays_3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_array_4">
+				<name>AND_array_4</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="array_4">
+				<name>array_4</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_array_lst_1">
+				<name>AND_array_lst_1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="array_lst_1">
+				<name>array_lst_1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_arrays_1">
+				<name>AND_arrays_1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="arrays_1">
+				<name>arrays_1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_arrays_2">
+				<name>AND_arrays_2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="arrays_2">
+				<name>arrays_2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_arrays_3">
+				<name>AND_arrays_3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="arrays_3">
+				<name>arrays_3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_check_start_end_character">
+				<name>AND_check_start_end_character</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="check_start_end_character">
+				<name>check_start_end_character</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_compute_average">
+				<name>AND_compute_average</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="compute_average">
+				<name>compute_average</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_days_to_week_conversion">
+				<name>AND_days_to_week_conversion</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="days_to_week_conversion">
+				<name>days_to_week_conversion</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_end_characters">
+				<name>AND_end_characters</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="end_characters">
+				<name>end_characters</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_first_half">
+				<name>AND_first_half</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="first_half">
+				<name>first_half</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_first_last_swap">
+				<name>AND_first_last_swap</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="first_last_swap">
+				<name>first_last_swap</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_for1_coding">
+				<name>AND_for1_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="for1_coding">
+				<name>for1_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_for2_coding">
+				<name>AND_for2_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="for2_coding">
+				<name>for2_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_for3_coding">
+				<name>AND_for3_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="for3_coding">
+				<name>for3_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_for4_coding">
+				<name>AND_for4_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="for4_coding">
+				<name>for4_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_greenTicket">
+				<name>AND_greenTicket</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="greenTicket">
+				<name>greenTicket</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_in1To10">
+				<name>AND_in1To10</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="in1To10">
+				<name>in1To10</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_in_order">
+				<name>AND_in_order</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="in_order">
+				<name>in_order</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_inheritance_1">
+				<name>AND_inheritance_1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="inheritance_1">
+				<name>inheritance_1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_inheritance_2">
+				<name>AND_inheritance_2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="inheritance_2">
+				<name>inheritance_2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_is_special">
+				<name>AND_is_special</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="is_special">
+				<name>is_special</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_love6">
+				<name>AND_love6</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="love6">
+				<name>love6</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_make_out_word">
+				<name>AND_make_out_word</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="make_out_word">
+				<name>make_out_word</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_nested_loops_1">
+				<name>AND_nested_loops_1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="nested_loops_1">
+				<name>nested_loops_1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_nested_loops_2">
+				<name>AND_nested_loops_2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="nested_loops_2">
+				<name>nested_loops_2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_non_start">
+				<name>AND_non_start</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="non_start">
+				<name>non_start</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_object_classes_1">
+				<name>AND_object_classes_1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="object_classes_1">
+				<name>object_classes_1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_object_classes_2">
+				<name>AND_object_classes_2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="object_classes_2">
+				<name>object_classes_2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_object_classes_3">
+				<name>AND_object_classes_3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="object_classes_3">
+				<name>object_classes_3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_object_classes_4">
+				<name>AND_object_classes_4</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="object_classes_4">
+				<name>object_classes_4</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_percentage_correctness">
+				<name>AND_percentage_correctness</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="percentage_correctness">
+				<name>percentage_correctness</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_rectangle_perimeter">
+				<name>AND_rectangle_perimeter</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="rectangle_perimeter">
+				<name>rectangle_perimeter</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_repeat_last_char">
+				<name>AND_repeat_last_char</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="repeat_last_char">
+				<name>repeat_last_char</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_second_in_days">
+				<name>AND_second_in_days</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="second_in_days">
+				<name>second_in_days</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_sortaSum">
+				<name>AND_sortaSum</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="sortaSum">
+				<name>sortaSum</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_squirrel_play">
+				<name>AND_squirrel_play</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="squirrel_play">
+				<name>squirrel_play</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_twoAsOne">
+				<name>AND_twoAsOne</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="twoAsOne">
+				<name>twoAsOne</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_while4_coding">
+				<name>AND_while4_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="while4_coding">
+				<name>while4_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_while5_coding">
+				<name>AND_while5_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="while5_coding">
+				<name>while5_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_while1_coding">
+				<name>AND_while1_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="while1_coding">
+				<name>while1_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_while2_coding">
+				<name>AND_while2_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="while2_coding">
+				<name>while2_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_while3_coding">
+				<name>AND_while3_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="while3_coding">
+				<name>while3_coding</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_without2">
+				<name>AND_without2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="without2">
+				<name>without2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_pretest_array">
+				<name>AND_pretest_array</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="pretest_array">
+				<name>pretest_array</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_pretest_boolean">
+				<name>AND_pretest_boolean</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="pretest_boolean">
+				<name>pretest_boolean</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_pretest_ifelse">
+				<name>AND_pretest_ifelse</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="pretest_ifelse">
+				<name>pretest_ifelse</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_pretest_method">
+				<name>AND_pretest_method</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="pretest_method">
+				<name>pretest_method</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_pretest_nested_for">
+				<name>AND_pretest_nested_for</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="pretest_nested_for">
+				<name>pretest_nested_for</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_pretest_qj_2darray">
+				<name>AND_pretest_qj_2darray</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="pretest_qj_2darray">
+				<name>pretest_qj_2darray</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_pretest_qj_array">
+				<name>AND_pretest_qj_array</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="pretest_qj_array">
+				<name>pretest_qj_array</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_pretest_qj_for">
+				<name>AND_pretest_qj_for</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="pretest_qj_for">
+				<name>pretest_qj_for</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_pretest_qj_if">
+				<name>AND_pretest_qj_if</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="pretest_qj_if">
+				<name>pretest_qj_if</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_pretest_qj_while">
+				<name>AND_pretest_qj_while</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="pretest_qj_while">
+				<name>pretest_qj_while</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_BmiCalculator2">
+				<name>AND_BmiCalculator2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="BmiCalculator2">
+				<name>BmiCalculator2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_FahrenheitToCelsius">
+				<name>AND_FahrenheitToCelsius</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="FahrenheitToCelsius">
+				<name>FahrenheitToCelsius</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_PythagoreanTheorem2">
+				<name>AND_PythagoreanTheorem2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="PythagoreanTheorem2">
+				<name>PythagoreanTheorem2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_DisplayTime2">
+				<name>AND_DisplayTime2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="DisplayTime2">
+				<name>DisplayTime2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JVocabulary2">
+				<name>AND_JVocabulary2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JVocabulary2">
+				<name>JVocabulary2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JArrayBasic2">
+				<name>AND_JArrayBasic2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JArrayBasic2">
+				<name>JArrayBasic2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JArrayBasic3">
+				<name>AND_JArrayBasic3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JArrayBasic3">
+				<name>JArrayBasic3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JArraySwapAdjacentElements">
+				<name>AND_JArraySwapAdjacentElements</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JArraySwapAdjacentElements">
+				<name>JArraySwapAdjacentElements</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JArrayFillUserInput">
+				<name>AND_JArrayFillUserInput</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JArrayFillUserInput">
+				<name>JArrayFillUserInput</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JArrayMin">
+				<name>AND_JArrayMin</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JArrayMin">
+				<name>JArrayMin</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JAverageArrayElements">
+				<name>AND_JAverageArrayElements</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JAverageArrayElements">
+				<name>JAverageArrayElements</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JArrayRotateLeftTwice">
+				<name>AND_JArrayRotateLeftTwice</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JArrayRotateLeftTwice">
+				<name>JArrayRotateLeftTwice</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JArrayRotateRight">
+				<name>AND_JArrayRotateRight</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JArrayRotateRight">
+				<name>JArrayRotateRight</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JArrayRotateRightTwice">
+				<name>AND_JArrayRotateRightTwice</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JArrayRotateRightTwice">
+				<name>JArrayRotateRightTwice</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JSearchArrayCountsEach">
+				<name>AND_JSearchArrayCountsEach</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JSearchArrayCountsEach">
+				<name>JSearchArrayCountsEach</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JSearchArrayTotalCounts">
+				<name>AND_JSearchArrayTotalCounts</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JSearchArrayTotalCounts">
+				<name>JSearchArrayTotalCounts</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JTemperatureListDaysAboveThreshold">
+				<name>AND_JTemperatureListDaysAboveThreshold</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JTemperatureListDaysAboveThreshold">
+				<name>JTemperatureListDaysAboveThreshold</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JArrays2dBasic2">
+				<name>AND_JArrays2dBasic2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JArrays2dBasic2">
+				<name>JArrays2dBasic2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JArrays2dBasic3">
+				<name>AND_JArrays2dBasic3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JArrays2dBasic3">
+				<name>JArrays2dBasic3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JPrintMedalsRowColumnTotal">
+				<name>AND_JPrintMedalsRowColumnTotal</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JPrintMedalsRowColumnTotal">
+				<name>JPrintMedalsRowColumnTotal</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JSodaSurverySodaAvg">
+				<name>AND_JSodaSurverySodaAvg</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JSodaSurverySodaAvg">
+				<name>JSodaSurverySodaAvg</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JSodaSurverySodaRespondentAvg">
+				<name>AND_JSodaSurverySodaRespondentAvg</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JSodaSurverySodaRespondentAvg">
+				<name>JSodaSurverySodaRespondentAvg</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_VendingMachine2">
+				<name>AND_VendingMachine2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="VendingMachine2">
+				<name>VendingMachine2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JDecInc2">
+				<name>AND_JDecInc2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JDecInc2">
+				<name>JDecInc2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JDecInc3">
+				<name>AND_JDecInc3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JDecInc3">
+				<name>JDecInc3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JFailCourse2">
+				<name>AND_JFailCourse2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JFailCourse2">
+				<name>JFailCourse2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JFailCourse3">
+				<name>AND_JFailCourse3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JFailCourse3">
+				<name>JFailCourse3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JBooleanDryHot2">
+				<name>AND_JBooleanDryHot2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JBooleanDryHot2">
+				<name>JBooleanDryHot2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JBooleanDryHot3">
+				<name>AND_JBooleanDryHot3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JBooleanDryHot3">
+				<name>JBooleanDryHot3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JBooleanDryHot4">
+				<name>AND_JBooleanDryHot4</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JBooleanDryHot4">
+				<name>JBooleanDryHot4</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JPhoneAge2">
+				<name>AND_JPhoneAge2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JPhoneAge2">
+				<name>JPhoneAge2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JRentCar2">
+				<name>AND_JRentCar2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JRentCar2">
+				<name>JRentCar2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JRentCar3">
+				<name>AND_JRentCar3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JRentCar3">
+				<name>JRentCar3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JThreeBoolean2">
+				<name>AND_JThreeBoolean2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JThreeBoolean2">
+				<name>JThreeBoolean2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JThreeBoolean3">
+				<name>AND_JThreeBoolean3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JThreeBoolean3">
+				<name>JThreeBoolean3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JCheckAge2">
+				<name>AND_JCheckAge2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JCheckAge2">
+				<name>JCheckAge2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JCheckProductCode2">
+				<name>AND_JCheckProductCode2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JCheckProductCode2">
+				<name>JCheckProductCode2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JInputStat2">
+				<name>AND_JInputStat2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JInputStat2">
+				<name>JInputStat2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JWorkHours2">
+				<name>AND_JWorkHours2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JWorkHours2">
+				<name>JWorkHours2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JForOne2">
+				<name>AND_JForOne2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JForOne2">
+				<name>JForOne2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JForThree2">
+				<name>AND_JForThree2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JForThree2">
+				<name>JForThree2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JForTwo2">
+				<name>AND_JForTwo2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JForTwo2">
+				<name>JForTwo2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JWriteSquaresOdd">
+				<name>AND_JWriteSquaresOdd</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JWriteSquaresOdd">
+				<name>JWriteSquaresOdd</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JWriteSquaresRange">
+				<name>AND_JWriteSquaresRange</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JWriteSquaresRange">
+				<name>JWriteSquaresRange</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JIfElseIfGrade2">
+				<name>AND_JIfElseIfGrade2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JIfElseIfGrade2">
+				<name>JIfElseIfGrade2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_ifElseOddEven">
+				<name>AND_ifElseOddEven</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="ifElseOddEven">
+				<name>ifElseOddEven</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JIfElseWages2">
+				<name>AND_JIfElseWages2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JIfElseWages2">
+				<name>JIfElseWages2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JNestedIfMaxOfThree">
+				<name>AND_JNestedIfMaxOfThree</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JNestedIfMaxOfThree">
+				<name>JNestedIfMaxOfThree</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JNestedIfTemperature2">
+				<name>AND_JNestedIfTemperature2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JNestedIfTemperature2">
+				<name>JNestedIfTemperature2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_AnimalTester2">
+				<name>AND_AnimalTester2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AnimalTester2">
+				<name>AnimalTester2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_InheritancePointTester2">
+				<name>AND_InheritancePointTester2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="InheritancePointTester2">
+				<name>InheritancePointTester2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JRepeatedSequence2">
+				<name>AND_JRepeatedSequence2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JRepeatedSequence2">
+				<name>JRepeatedSequence2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JStars2">
+				<name>AND_JStars2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JStars2">
+				<name>JStars2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_Transactions2">
+				<name>AND_Transactions2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="Transactions2">
+				<name>Transactions2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_LoanTester2">
+				<name>AND_LoanTester2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="LoanTester2">
+				<name>LoanTester2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_PointTester2">
+				<name>AND_PointTester2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="PointTester2">
+				<name>PointTester2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_TVTester2">
+				<name>AND_TVTester2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="TVTester2">
+				<name>TVTester2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_StringAddition2">
+				<name>AND_StringAddition2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="StringAddition2">
+				<name>StringAddition2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JCharAt2">
+				<name>AND_JCharAt2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JCharAt2">
+				<name>JCharAt2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JStringEqual2">
+				<name>AND_JStringEqual2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JStringEqual2">
+				<name>JStringEqual2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JEscapeChar2">
+				<name>AND_JEscapeChar2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JEscapeChar2">
+				<name>JEscapeChar2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JEscapeChar3">
+				<name>AND_JEscapeChar3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JEscapeChar3">
+				<name>JEscapeChar3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_Initials2">
+				<name>AND_Initials2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="Initials2">
+				<name>Initials2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_Initials3">
+				<name>AND_Initials3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="Initials3">
+				<name>Initials3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JLargestDivisor">
+				<name>AND_JLargestDivisor</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JLargestDivisor">
+				<name>JLargestDivisor</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JInput2">
+				<name>AND_JInput2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JInput2">
+				<name>JInput2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JInput3">
+				<name>AND_JInput3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JInput3">
+				<name>JInput3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JInput4">
+				<name>AND_JInput4</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JInput4">
+				<name>JInput4</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JAverageDouble">
+				<name>AND_JAverageDouble</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JAverageDouble">
+				<name>JAverageDouble</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JAverageEvenNums">
+				<name>AND_JAverageEvenNums</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JAverageEvenNums">
+				<name>JAverageEvenNums</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JAdjacentConsecutives">
+				<name>AND_JAdjacentConsecutives</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JAdjacentConsecutives">
+				<name>JAdjacentConsecutives</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JAdjacentGreater">
+				<name>AND_JAdjacentGreater</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JAdjacentGreater">
+				<name>JAdjacentGreater</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JReverseNumber">
+				<name>AND_JReverseNumber</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JReverseNumber">
+				<name>JReverseNumber</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JSumDigits">
+				<name>AND_JSumDigits</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JSumDigits">
+				<name>JSumDigits</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JWinPercentageInput">
+				<name>AND_JWinPercentageInput</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JWinPercentageInput">
+				<name>JWinPercentageInput</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="AND_JWinPercentageWonEqual">
+				<name>AND_JWinPercentageWonEqual</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="JWinPercentageWonEqual">
+				<name>JWinPercentageWonEqual</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>

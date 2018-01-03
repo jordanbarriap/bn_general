@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- default values for db connection -->
+	<bn_dbstring>jdbc:mysql://localhost:3306/bn_general</bn_dbstring>
+	<bn_dbuser>root</bn_dbuser>
+	<bn_dbpass>roya6711</bn_dbpass>
+	
+	<um2_dbstring>jdbc:mysql://localhost:3306/um2</um2_dbstring>
+	<um2_dbuser>root</um2_dbuser>
+	<um2_dbpass>roya6711</um2_dbpass>
+</configuration>
