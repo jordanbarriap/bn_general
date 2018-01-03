@@ -1,0 +1,6 @@
+.project
+.settings
+.classpath
+.metadata
+.DS_Store
+bn_general/WebContent/WEB-INF/classes
