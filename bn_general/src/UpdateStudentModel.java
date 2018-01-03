@@ -45,10 +45,9 @@ public class UpdateStudentModel extends HttpServlet {
 
 	/* -------------------------------------------------------------------- */
 	
-	//TODO change path
 	// private String inputDir = "C:\\java\\Tomcat\\webapps\\bn\\WEB-INF\\input\\";
-    //private String inputDir = "/var/lib/tomcat/webapps/bn_general/WEB-INF/input/";
-	private String inputDir = "/Users/roya/Documents/eclipseWS/bn_general/WebContent/WEB-INF/input/";
+    private String inputDir = "/var/lib/tomcat/webapps/bn_general/WEB-INF/input/";
+//	private String inputDir = "/Users/roya/Documents/eclipseWS/bn_general/WebContent/WEB-INF/input/";
 
 	private String newlineSymbol = "\r\n";
 	private double MIN_BN_KNOWLEDGE = 0.0001; // doesn't allow knowledge to be 0

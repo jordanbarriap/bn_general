@@ -10,7 +10,7 @@ import org.apache.http.impl.nio.client.HttpAsyncClients;
 
 public class HttpAsyncClientInterface {
 
-	private final String bnServiceURL = "http://localhost:8080/bn_general/UpdateStudentModel";
+	private final String bnServiceURL = "http://adapt2.sis.pitt.edu/bn_general/UpdateStudentModel";
 	private CloseableHttpAsyncClient client;
 	private static HttpAsyncClientInterface instance;
 
