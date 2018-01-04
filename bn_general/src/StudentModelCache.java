@@ -1,7 +1,6 @@
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -12,31 +11,37 @@ public class StudentModelCache extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 	
-	public void doGet(HttpServletRequest request, HttpServletResponse response) 
-			throws ServletException, IOException {
+	public void doPost(HttpServletRequest request, HttpServletResponse response) {
+		doGet(request, response);
+	}
+	
+	public void doGet(HttpServletRequest request, HttpServletResponse response)  {
 
-		// Step 1: get the url params
-		String usr = request.getParameter("usr");
-		String grp = request.getParameter("grp");
-		String lastAct = request.getParameter("lastContentId");
-		String lastActResult = request.getParameter("lastContentResult");
-		String contents = request.getParameter("contents");
-		String event = request.getParameter("event");
+		try {
+			// Step 1: get the url params
+			String usr = request.getParameter("usr");
+			String grp = request.getParameter("grp");
+			String lastAct = request.getParameter("lastContentId");
+			String lastActResult = request.getParameter("lastContentResult");
+			String contents = request.getParameter("contents");
+			String event = (request.getParameter("event") == null? "" : request.getParameter("event"));
 
-		// Step 3: get the last student model
-		String jsonLastStdModel = StudentData.getInstance().getLastStudentModel(usr, grp);
+			// Step 3: get the last student model
+			String jsonLastStdModel = StudentData.getInstance().getLastStudentModel(usr, grp);
 
-		String params = createParamJSON(usr, grp, lastAct, lastActResult, contents, event);
-		
-		// Step 4: call the student model asynchronously to update its belief
-		HttpAsyncClientInterface.getInstance().sendHttpAsynchPostRequest(params);
+			String params = createParamJSON(usr, grp, lastAct, lastActResult, contents, event);
+			
+			// Step 4: call the student model asynchronously to update its belief
+			HttpAsyncClientInterface.getInstance().sendHttpAsynchPostRequest(params);
 
-		// Step 5: return student model JSON, if new student model is null
-		// return an empty string
-		System.out.println("Sending cache data to recommendation...");
+			// Step 5: return student model JSON, if new student model is null
+			// return an empty string
+			String output = jsonLastStdModel == null ? "{\"item-kc-estimates\":[]}" : jsonLastStdModel;
+			setResponse(response, output);
 
-		String output = jsonLastStdModel == null ? "" : jsonLastStdModel;
-		setResponse(response, output);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
 	}
 

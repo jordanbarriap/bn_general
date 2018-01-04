@@ -84,7 +84,6 @@ public class UpdateStudentModel extends HttpServlet {
 		//System.out.println("-------------------------------------------------------");
 		//long startTime = System.currentTimeMillis();
 		//System.out.println("start processing: " + dateFormat.format(new Date()));
-		System.out.println("Updating student model...");
 	
 		String usr = null;
 		String grp = null;
@@ -107,7 +106,7 @@ public class UpdateStudentModel extends HttpServlet {
 					lastActResult = Double.parseDouble((String)jsonObject.get("lastContentResult"));
 				} catch (Exception e) {
 					System.out.println(
-							"Error: (bn_general/GetStudentModel) Last activity result in the parameter could not be parsed to double. ");
+							"bn_general/UpdateStudentModel: Last activity result in the parameter could not be parsed to double. ");
 				}
 			}
 
@@ -137,6 +136,7 @@ public class UpdateStudentModel extends HttpServlet {
 					bnStr += line + "\n";
 				reader.close();
 			}
+			
 			if (UpdateStudentModel.mainNet == null) {
 				mainNet = new Network();	
 				mainNet.readString(bnStr);
@@ -192,8 +192,6 @@ public class UpdateStudentModel extends HttpServlet {
 			}
 
 			//System.out.println("stored updated models:" + dateFormat.format(new Date()));
-
-			System.out.println("Finished updating student model...");
 
 			// Step 10: return student model JSON, if new student model is null
 			// (i.e., last student model is not updated), return last student model
@@ -361,7 +359,7 @@ public class UpdateStudentModel extends HttpServlet {
 					if (!bnNodes.contains(bnKCId))
 						continue;
 					if (net.getParentIds(bnKCId).length > 0){
-						System.err.println("ERROR: net.getParentIds(bnKCId).length > 0, but we don't consider skills that have parents!)");
+						System.err.println("ERROR (bn_general/UpdateStudentModel): net.getParentIds(bnKCId).length > 0, but we don't consider skills that have parents!)");
 						continue;
 					}
 					prob = Math.min(Math.max(prob, MIN_BN_KNOWLEDGE), 1 - MIN_BN_KNOWLEDGE);
@@ -399,13 +397,13 @@ public class UpdateStudentModel extends HttpServlet {
 		HashSet<String> oldestAncesters = new HashSet<String>();
 		if (net == null) {
 			if (verbose)
-				System.err.println("ERROR: net==null!");
+				System.err.println("ERROR  (bn_general/UpdateStudentModel): net==null!");
 			return null;
 		}
 		HashSet<String> bnNodes = new HashSet<String>(Arrays.asList(net.getAllNodeIds()));
 		if (!bnNodes.contains(curNodeId)) {
 			if (verbose)
-				System.err.println("ERROR: !bnNodes.contains(" + curNodeId + ")");
+				System.err.println("ERROR  (bn_general/UpdateStudentModel): !bnNodes.contains(" + curNodeId + ")");
 			return null;
 		}
 
@@ -439,7 +437,7 @@ public class UpdateStudentModel extends HttpServlet {
 		try {
 			Set<String> bnNodes = new HashSet<String>(Arrays.asList(net.getAllNodeIds()));
 			if (!bnNodes.contains(itemId)) {
-				System.err.println("\tERROR: " + itemId + " is not in bn, no KC will be updated by BN!");
+				System.err.println("(bn_general/UpdateStudentModel): " + itemId + " is not in bn, no KC will be updated by BN!");
 				return null;
 			}
 
@@ -463,7 +461,7 @@ public class UpdateStudentModel extends HttpServlet {
 			for (String bnKCId : KCIds) {
 				int nbParents = net.getParentIds(bnKCId).length;
 				if (nbParents != 0) {
-					System.err.println("\tERROR: bnKCId (to be updated in the bn) has parents! bnKCId:" + bnKCId
+					System.err.println("(bn_general/UpdateStudentModel): bnKCId (to be updated in the bn) has parents! bnKCId:" + bnKCId
 							+ ", #parents:" + nbParents);
 					continue;
 				}
