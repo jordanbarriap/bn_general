@@ -25,6 +25,7 @@ public class StudentModelCache extends HttpServlet {
 			String lastActResult = request.getParameter("lastContentResult");
 			String contents = request.getParameter("contents");
 			String event = (request.getParameter("event") == null? "" : request.getParameter("event"));
+	        String updatesm = request.getParameter("updatesm");
 
 			// Step 3: get the last student model
 			String jsonLastStdModel = StudentData.getInstance().getLastStudentModel(usr, grp);
@@ -32,7 +33,17 @@ public class StudentModelCache extends HttpServlet {
 			String params = createParamJSON(usr, grp, lastAct, lastActResult, contents, event);
 			
 			// Step 4: call the student model asynchronously to update its belief
-			HttpAsyncClientInterface.getInstance().sendHttpAsynchPostRequest(params);
+			// call student model only if updatesm is true and the result is in valid range 0-1
+			if (updatesm != null && updatesm.equals("true")) {
+				try {
+					double result = Double.parseDouble(lastActResult);
+					if (result >=0 && result <=1) {
+						HttpAsyncClientInterface.getInstance().sendHttpAsynchPostRequest(params);	
+					}
+				} catch (Exception e) {
+					System.out.println("bn_general/StudentModelCache: last activity result is not between 0-1. So, UpdateStudentModel is not called.");
+				}
+			}
 
 			// Step 5: return student model JSON, if new student model is null
 			// return an empty string
