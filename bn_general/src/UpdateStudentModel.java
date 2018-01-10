@@ -125,8 +125,8 @@ public class UpdateStudentModel extends HttpServlet {
 				itemList = this.getItemList(contentList); 
 															
 			// Step 3: dynamically define which bn file should be used for the grp
-			String bnFile = inputDir + grp + "_net_learned_BN.xdsl";
-			
+			//String bnFile = inputDir + grp + "_net_learned_BN.xdsl";
+			String bnFile = inputDir + "java_net_learned_BN.xdsl";
 			// Step 4: Create the main network from the original bn file
 			if (UpdateStudentModel.bnStr == null || UpdateStudentModel.bnStr.isEmpty()) {
 				BufferedReader reader = new BufferedReader(new FileReader(bnFile));
