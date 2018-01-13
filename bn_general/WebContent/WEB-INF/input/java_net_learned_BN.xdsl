@@ -1708,7 +1708,7 @@
 			<state id="Correct" />
 			<state id="Wrong" />
 			<parents>AND_ifElseOddEven</parents>
-			<probabilities>0.7606719150817653 0.2393280849182347 0.8410483238053463 0.1589516761946537</probabilities>
+			<probabilities>0.7606719150817653 0.2393280849182347 0.2393280849182347 0.7606719150817653</probabilities>
 		</cpt>
 		<cpt id="AND_JIfElseWages2">
 			<state id="Learned" />
@@ -1960,7 +1960,7 @@
 			<state id="Correct" />
 			<state id="Wrong" />
 			<parents>AND_JInput3</parents>
-			<probabilities>0.2876507820212168 0.7123492179787831 0.4294570898968238 0.5705429101031761</probabilities>
+			<probabilities>0.9677026290313877 0.03229737096861227 0.7326600884629011 0.2673399115370989</probabilities>
 		</cpt>
 		<cpt id="AND_JInput4">
 			<state id="Learned" />
