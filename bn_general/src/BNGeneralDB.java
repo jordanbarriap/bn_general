@@ -49,7 +49,7 @@ public class BNGeneralDB extends DBInterface {
 			String availableContentText = getContents(contentList);
 			stmt = conn.createStatement(); // create a statement
 
-			String query = " SELECT distinct activity from um2.ent_activity " + " where appid in (44,47) "
+			String query = " SELECT distinct activity from um2.ent_activity " + " where appid in (25,44,47) "
 					+ " and activity in (" + availableContentText + ");";
 
 			if (verbose) {

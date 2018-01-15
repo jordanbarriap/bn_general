@@ -111,8 +111,14 @@ public class UpdateStudentModel extends HttpServlet {
 			}
 
 			String contentsTxt = (String)jsonObject.get("contents");
-			if (contentsTxt != null)
+			if (contentsTxt != null) {
+				//add pretest items to the contentList;
+				contentsTxt += ("pretest_qj_if,pretest_qj_while,pretest_qj_for," +
+					       "pretest_qj_array,pretest_qj_2darray,pretest_boolean," +
+					       "pretest_nested_for,pretest_array,pretest_ifelse," +
+					       "pretest_method");
 				contentList = contentsTxt.split(","); // contents are separated by ,
+			}
 
 			event = (String)jsonObject.get("event");
 			
