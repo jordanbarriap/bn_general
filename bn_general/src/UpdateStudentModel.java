@@ -21,6 +21,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -278,7 +279,13 @@ public class UpdateStudentModel extends HttpServlet {
 			// iterating through estimates of kcs and items
 			for (int i = 0; i < itemKCEstimates.length(); i++) {
 				JSONObject jsonobj = itemKCEstimates.getJSONObject(i);
-				stdModelMap.put(jsonobj.getString("name"), jsonobj.getDouble("p"));
+				//added try-catch to overcome the parse error that occurs when a new problem is added to the course that does not exist in the BN net.
+				//probability is set to 1.0 because the new content that is not in net does not have any concepts.
+				try {
+					stdModelMap.put(jsonobj.getString("name"), jsonobj.getDouble("p"));
+				} catch (JSONException e) {
+					stdModelMap.put(jsonobj.getString("name"), 1.0);					
+				}
 			}
 		}
 		if (verbose) {
