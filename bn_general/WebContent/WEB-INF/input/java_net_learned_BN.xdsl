@@ -2070,6 +2070,366 @@
 			<parents>AND_JWinPercentageWonEqual</parents>
 			<probabilities>0.9634983615413597 0.03650163845864028 0.2031828415635459 0.7968171584364542</probabilities>
 		</cpt>
+        <cpt id="AND_compareNumTo6SumTo12">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>LessExpression AddExpression BooleanDataType</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="compareNumTo6SumTo12">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_compareNumTo6SumTo12</parents>
+            <probabilities>0.6311155030515058 0.3688844969484941 0.04831177599972727 0.9516882240002728</probabilities>
+        </cpt>
+        <cpt id="AND_conditionalSum">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>LessExpression OrExpression AddExpression IfStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="conditionalSum">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_conditionalSum</parents>
+            <probabilities>0.6045318145863391 0.3954681854136609 0.0125197852489609 0.9874802147510392</probabilities>
+        </cpt>
+        <cpt id="AND_conditionalSum2">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>LessExpression OrExpression AddExpression IfStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="conditionalSum2">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_conditionalSum2</parents>
+            <probabilities>0.6045318145863391 0.3954681854136609 0.0125197852489609 0.9874802147510392</probabilities>
+        </cpt>
+        <cpt id="AND_countIterations">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>NestedForLoops PostIncrementExpression ForStatement AddExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="countIterations">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_countIterations</parents>
+            <probabilities>0.9061066680243646 0.09389333197563539 0.02400040598119196 0.975999594018808</probabilities>
+        </cpt>
+        <cpt id="AND_forestSquirrelPlay">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>AndExpression GreaterEqualExpression NotExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="forestSquirrelPlay">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_forestSquirrelPlay</parents>
+            <probabilities>0.8497330916418299 0.1502669083581701 0.09536409127948074 0.9046359087205192</probabilities>
+        </cpt>
+        <cpt id="AND_forSumIn5thIncrements">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>AddAssignmentExpression ForStatement LessEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="forSumIn5thIncrements">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_forSumIn5thIncrements</parents>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
+        </cpt>
+        <cpt id="AND_lotteryTicket">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>IfElseIfStatement IfElseStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="lotteryTicket">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_lotteryTicket</parents>
+            <probabilities>0.821101514594871 0.1788984854051289 0.01254418195663484 0.9874558180433651</probabilities>
+        </cpt>
+        <cpt id="AND_nestedIfElse">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>IfElseStatement GreaterExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="nestedIfElse">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_nestedIfElse</parents>
+            <probabilities>0.4394271095638312 0.5605728904361688 0.006411152642522022 0.993588847357478</probabilities>
+        </cpt>
+        <cpt id="AND_numSign">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>IfElseStatement GreaterEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="numSign">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_numSign</parents>
+            <probabilities>0.6045318145863391 0.3954681854136609 0.0125197852489609 0.9874802147510392</probabilities>
+        </cpt>
+        <cpt id="AND_oneBooleanFalse">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>AndExpression NotExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="oneBooleanFalse">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_oneBooleanFalse</parents>
+            <probabilities>0.4210835023497173 0.5789164976502826 0.05153394806005077 0.9484660519399493</probabilities>
+        </cpt>
+        <cpt id="AND_posttest_ifelse">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>IfElseIfStatement IfElseStatement GreaterEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="posttest_ifelse">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_posttest_ifelse</parents>
+            <probabilities>0.9 0.1 0.09999999999999962 0.9000000000000004</probabilities>
+        </cpt>
+        <cpt id="AND_posttest_nested_for">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>NestedForLoops PostIncrementExpression LessEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="posttest_nested_for">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_posttest_nested_for</parents>
+            <probabilities>0.9 0.1 0.09999999999999987 0.9000000000000002</probabilities>
+        </cpt>
+        <cpt id="AND_print0ToN">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>PostIncrementExpression ForStatement LessEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="print0ToN">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_print0ToN</parents>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
+        </cpt>
+        <cpt id="AND_printAtoB">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>LessExpression PostIncrementExpression ForStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="printAtoB">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_printAtoB</parents>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
+        </cpt>
+        <cpt id="AND_printInStepsOf5">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>AddAssignmentExpression ForStatement LessEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="printInStepsOf5">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_printInStepsOf5</parents>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
+        </cpt>
+        <cpt id="AND_printInStepsOf5_2">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>AddAssignmentExpression ForStatement LessEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="printInStepsOf5_2">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_printInStepsOf5_2</parents>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
+        </cpt>
+        <cpt id="AND_printNto1">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>ForStatement GreaterEqualExpression PostDecrementExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="printNto1">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_printNto1</parents>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
+        </cpt>
+        <cpt id="AND_printSumAtoB">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>LessExpression ForStatement AddExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="printSumAtoB">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_printSumAtoB</parents>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
+        </cpt>
+        <cpt id="AND_squirrelParty50">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>AndExpression OrExpression BooleanDataType</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="squirrelParty50">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_squirrelParty50</parents>
+            <probabilities>0.8497330916418299 0.1502669083581701 0.09536409127948074 0.9046359087205192</probabilities>
+        </cpt>
+        <cpt id="AND_squirrelParty60">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>AndExpression OrExpression BooleanDataType</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="squirrelParty60">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_squirrelParty60</parents>
+            <probabilities>0.8497330916418299 0.1502669083581701 0.09536409127948074 0.9046359087205192</probabilities>
+        </cpt>
+        <cpt id="AND_twoNumSpecial">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>AndExpression OrExpression BooleanDataType</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="twoNumSpecial">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_twoNumSpecial</parents>
+            <probabilities>0.4210835023497173 0.5789164976502826 0.05153394806005077 0.9484660519399493</probabilities>
+        </cpt>
+        <cpt id="AND_JAccountGrowth1_US">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>PostIncrementExpression DoubleDataType ForStatement LessEqualExpression AddExpression MultiplyExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="JAccountGrowth1_US">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_JAccountGrowth1_US</parents>
+            <probabilities>0.8600187663384239 0.1399812336615761 0.3606487108531877 0.6393512891468124</probabilities>
+        </cpt>
+        <cpt id="AND_JFailCourse1_US">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>LessExpression GreaterExpression ObjectMethodInvocation OrExpression BooleanDataType ImportStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="JFailCourse1_US">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_JFailCourse1_US</parents>
+            <probabilities>0.9971240239951658 0.002875976004834265 0.04886719480267179 0.9511328051973282</probabilities>
+        </cpt>
+        <cpt id="AND_JIfElseNumSign1_US">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>LessExpression IfElseIfStatement IfElseStatement GreaterExpression ObjectMethodInvocation</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="JIfElseNumSign1_US">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_JIfElseNumSign1_US</parents>
+            <probabilities>0.7606719150817653 0.2393280849182347 0.8410483238053463 0.1589516761946537</probabilities>
+        </cpt>
+        <cpt id="AND_JIfElseWages1_US">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>IfElseStatement DoubleDataType AddExpression MultiplyExpression StringAddition Constant ConstantInitializationStatement SubtractExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="JIfElseWages1_US">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_JIfElseWages1_US</parents>
+            <probabilities>0.5083434623244273 0.4916565376755727 0.3340630482731445 0.6659369517268555</probabilities>
+        </cpt>
+        <cpt id="AND_JPrintingSums_US">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>NestedForLoops PostIncrementExpression ForStatement LessEqualExpression AddExpression SimpleVariable StringAddition</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="JPrintingSums_US">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_JPrintingSums_US</parents>
+            <probabilities>0.9800684548525365 0.01993154514746354 0.1568214114588746 0.8431785885411254</probabilities>
+        </cpt>
+        <cpt id="AND_JPrintNumDesc2_US">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>GreaterExpression ObjectMethodInvocation ForStatement ImportStatement MinusAssignmentExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="JPrintNumDesc2_US">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_JPrintNumDesc2_US</parents>
+            <probabilities>0.7883830592323178 0.2116169407676823 0.07348309938484676 0.9265169006151531</probabilities>
+        </cpt>
+        <cpt id="AND_JRepeatedSequence1_US">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>NestedForLoops PostIncrementExpression ObjectMethodInvocation ForStatement LessEqualExpression java_lang_System_out_print ImportStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="JRepeatedSequence1_US">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_JRepeatedSequence1_US</parents>
+            <probabilities>0.9800684548525365 0.01993154514746354 0.1568214114588746 0.8431785885411254</probabilities>
+        </cpt>
+        <cpt id="AND_JStars1_US">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>NestedForLoops PostIncrementExpression ObjectMethodInvocation ForStatement LessEqualExpression java_lang_System_out_print ImportStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="JStars1_US">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_JStars1_US</parents>
+            <probabilities>0.483647971047519 0.516352028952481 0.1229313343501149 0.8770686656498851</probabilities>
+        </cpt>
+        <cpt id="AND_SimpleIf_US">
+            <state id="Learned" />
+            <state id="Unlearned" />
+            <parents>LessExpression GreaterExpression ObjectMethodInvocation OrExpression MultiplyExpression StringAddition IfStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+        </cpt>
+        <cpt id="SimpleIf_US">
+            <state id="Correct" />
+            <state id="Wrong" />
+            <parents>AND_SimpleIf_US</parents>
+            <probabilities>0.5083434623244273 0.4916565376755727 0.3340630482731445 0.6659369517268555</probabilities>
+        </cpt>
 	</nodes>
 	<extensions>
 		<genie version="1.0" app="SMILE Apr 16 2014" name="Unnamed" faultnameformat="nodestate">
@@ -4600,6 +4960,426 @@
 				<font color="000000" name="MS Sans Serif" size="8" />
 				<position>-38 -18 38 18</position>
 			</node>
+            <node id="AND_compareNumTo6SumTo12">
+                <name>AND_compareNumTo6SumTo12</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="compareNumTo6SumTo12">
+                <name>compareNumTo6SumTo12</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_conditionalSum">
+                <name>AND_conditionalSum</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="conditionalSum">
+                <name>conditionalSum</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_conditionalSum2">
+                <name>AND_conditionalSum2</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="conditionalSum2">
+                <name>conditionalSum2</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_countIterations">
+                <name>AND_countIterations</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="countIterations">
+                <name>countIterations</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_forestSquirrelPlay">
+                <name>AND_forestSquirrelPlay</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="forestSquirrelPlay">
+                <name>forestSquirrelPlay</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_forSumIn5thIncrements">
+                <name>AND_forSumIn5thIncrements</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="forSumIn5thIncrements">
+                <name>forSumIn5thIncrements</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_lotteryTicket">
+                <name>AND_lotteryTicket</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="lotteryTicket">
+                <name>lotteryTicket</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_nestedIfElse">
+                <name>AND_nestedIfElse</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="nestedIfElse">
+                <name>nestedIfElse</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_numSign">
+                <name>AND_numSign</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="numSign">
+                <name>numSign</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_oneBooleanFalse">
+                <name>AND_oneBooleanFalse</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="oneBooleanFalse">
+                <name>oneBooleanFalse</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_posttest_ifelse">
+                <name>AND_posttest_ifelse</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="posttest_ifelse">
+                <name>posttest_ifelse</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_posttest_nested_for">
+                <name>AND_posttest_nested_for</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="posttest_nested_for">
+                <name>posttest_nested_for</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_print0ToN">
+                <name>AND_print0ToN</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="print0ToN">
+                <name>print0ToN</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_printAtoB">
+                <name>AND_printAtoB</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="printAtoB">
+                <name>printAtoB</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_printInStepsOf5">
+                <name>AND_printInStepsOf5</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="printInStepsOf5">
+                <name>printInStepsOf5</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_printInStepsOf5_2">
+                <name>AND_printInStepsOf5_2</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="printInStepsOf5_2">
+                <name>printInStepsOf5_2</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_printNto1">
+                <name>AND_printNto1</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="printNto1">
+                <name>printNto1</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_printSumAtoB">
+                <name>AND_printSumAtoB</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="printSumAtoB">
+                <name>printSumAtoB</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_squirrelParty50">
+                <name>AND_squirrelParty50</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="squirrelParty50">
+                <name>squirrelParty50</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_squirrelParty60">
+                <name>AND_squirrelParty60</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="squirrelParty60">
+                <name>squirrelParty60</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_twoNumSpecial">
+                <name>AND_twoNumSpecial</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="twoNumSpecial">
+                <name>twoNumSpecial</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_JAccountGrowth1_US">
+                <name>AND_JAccountGrowth1_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="JAccountGrowth1_US">
+                <name>JAccountGrowth1_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_JFailCourse1_US">
+                <name>AND_JFailCourse1_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="JFailCourse1_US">
+                <name>JFailCourse1_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_JIfElseNumSign1_US">
+                <name>AND_JIfElseNumSign1_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="JIfElseNumSign1_US">
+                <name>JIfElseNumSign1_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_JIfElseWages1_US">
+                <name>AND_JIfElseWages1_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="JIfElseWages1_US">
+                <name>JIfElseWages1_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_JPrintingSums_US">
+                <name>AND_JPrintingSums_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="JPrintingSums_US">
+                <name>JPrintingSums_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_JPrintNumDesc2_US">
+                <name>AND_JPrintNumDesc2_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="JPrintNumDesc2_US">
+                <name>JPrintNumDesc2_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_JRepeatedSequence1_US">
+                <name>AND_JRepeatedSequence1_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="JRepeatedSequence1_US">
+                <name>JRepeatedSequence1_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_JStars1_US">
+                <name>AND_JStars1_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="JStars1_US">
+                <name>JStars1_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="AND_SimpleIf_US">
+                <name>AND_SimpleIf_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
+            <node id="SimpleIf_US">
+                <name>SimpleIf_US</name>
+                <interior color="e5f6f7" />
+                <outline color="0000bb" />
+                <font color="000000" name="MS Sans Serif" size="8" />
+                <position>-38 -18 38 18</position>
+            </node>
 		</genie>
 	</extensions>
 </smile>
