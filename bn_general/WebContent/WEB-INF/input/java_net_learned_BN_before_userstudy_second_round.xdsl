@@ -14,17 +14,17 @@
 		<cpt id="IntDataType">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.4959637312115769 0.5040362687884231</probabilities>
 		</cpt>
 		<cpt id="NestedForLoops">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.5815208195167041 0.418479180483296</probabilities>
 		</cpt>
 		<cpt id="LessExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.9835719998578062 0.0164280001421938</probabilities>
 		</cpt>
 		<cpt id="ReturnStatement">
 			<state id="Learned" />
@@ -34,7 +34,7 @@
 		<cpt id="AddAssignmentExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.9243877076643542 0.07561229233564581</probabilities>
 		</cpt>
 		<cpt id="ArrayLength">
 			<state id="Learned" />
@@ -54,12 +54,12 @@
 		<cpt id="IfElseIfStatement">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.3907222595128042 0.6092777404871959</probabilities>
 		</cpt>
 		<cpt id="PostIncrementExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.8486625872077481 0.1513374127922519</probabilities>
 		</cpt>
 		<cpt id="java_util_ArrayList">
 			<state id="Learned" />
@@ -89,17 +89,17 @@
 		<cpt id="IfElseStatement">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.926563459229929 0.07343654077007104</probabilities>
 		</cpt>
 		<cpt id="DoubleDataType">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.8764757954563978 0.1235242045436022</probabilities>
 		</cpt>
 		<cpt id="GreaterExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.9696000900526238 0.03039990994737614</probabilities>
 		</cpt>
 		<cpt id="java_lang_String_charAt">
 			<state id="Learned" />
@@ -109,7 +109,7 @@
 		<cpt id="AndExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.9737373856733014 0.02626261432669861</probabilities>
 		</cpt>
 		<cpt id="ObjectMethodInvocation">
 			<state id="Learned" />
@@ -149,12 +149,12 @@
 		<cpt id="ForStatement">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.9531963461215646 0.04680365387843543</probabilities>
 		</cpt>
 		<cpt id="LessEqualExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.6777213030615576 0.3222786969384423</probabilities>
 		</cpt>
 		<cpt id="java_lang_String_length">
 			<state id="Learned" />
@@ -169,12 +169,12 @@
 		<cpt id="GreaterEqualExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.4441614330153675 0.5558385669846325</probabilities>
 		</cpt>
 		<cpt id="NotExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.8883472372748547 0.1116527627251454</probabilities>
 		</cpt>
 		<cpt id="SuperclassConstructorCall">
 			<state id="Learned" />
@@ -229,22 +229,22 @@
 		<cpt id="OrExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.9811606722972688 0.01883932770273132</probabilities>
 		</cpt>
 		<cpt id="AddExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.450074313887665 0.5499256861123351</probabilities>
 		</cpt>
 		<cpt id="java_lang_System_out_print">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.8134467790421005 0.1865532209578996</probabilities>
 		</cpt>
 		<cpt id="java_lang_System_out_println">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.2374979279761069 0.7625020720238931</probabilities>
 		</cpt>
 		<cpt id="PublicClassSpecifier">
 			<state id="Learned" />
@@ -289,7 +289,7 @@
 		<cpt id="MultiplyExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.7669761368852864 0.2330238631147135</probabilities>
 		</cpt>
 		<cpt id="StringAddition">
 			<state id="Learned" />
@@ -309,12 +309,12 @@
 		<cpt id="PostDecrementExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.6944683822397766 0.3055316177602234</probabilities>
 		</cpt>
 		<cpt id="BooleanDataType">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.9867565030863776 0.01324349691362243</probabilities>
 		</cpt>
 		<cpt id="ArrayInitializationStatement">
 			<state id="Learned" />
@@ -344,7 +344,7 @@
 		<cpt id="IfStatement">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.8924840934069452 0.1075159065930547</probabilities>
 		</cpt>
 		<cpt id="java_lang_Math_round">
 			<state id="Learned" />
@@ -369,7 +369,7 @@
 		<cpt id="SubtractExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.6182086404109921 0.381791359589008</probabilities>
 		</cpt>
 		<cpt id="java_lang_Math_sqrt">
 			<state id="Learned" />
@@ -399,12 +399,12 @@
 		<cpt id="PreDecrementExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.7068391665849438 0.2931608334150562</probabilities>
 		</cpt>
 		<cpt id="PreIncrementExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.7068391665849438 0.2931608334150562</probabilities>
 		</cpt>
 		<cpt id="ImportStatement">
 			<state id="Learned" />
@@ -474,7 +474,7 @@
 		<cpt id="MinusAssignmentExpression">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<probabilities>0.5 0.5</probabilities>
+			<probabilities>0.8471096582414737 0.1528903417585263</probabilities>
 		</cpt>
 		<cpt id="NotEqualExpression">
 			<state id="Learned" />
@@ -801,26 +801,26 @@
 		<cpt id="AND_nested_loops_1">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<parents>IntDataType NestedForLoops PostIncrementExpression ForStatement LessEqualExpression java_lang_System_out_print java_lang_System_out_println</parents>
-			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+			<parents>NestedForLoops LessEqualExpression java_lang_System_out_print java_lang_System_out_println</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="nested_loops_1">
 			<state id="Correct" />
 			<state id="Wrong" />
 			<parents>AND_nested_loops_1</parents>
-			<probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+			<probabilities>0.3146398905947289 0.685360109405271 0.1275694292605326 0.8724305707394674</probabilities>
 		</cpt>
 		<cpt id="AND_nested_loops_2">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<parents>IntDataType NestedForLoops PostIncrementExpression ForStatement LessEqualExpression java_lang_System_out_print java_lang_System_out_println</parents>
-			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+			<parents>NestedForLoops LessEqualExpression java_lang_System_out_print java_lang_System_out_println</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="nested_loops_2">
 			<state id="Correct" />
 			<state id="Wrong" />
 			<parents>AND_nested_loops_2</parents>
-			<probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+			<probabilities>0.9061066680243646 0.09389333197563539 0.02400040598119196 0.975999594018808</probabilities>
 		</cpt>
 		<cpt id="AND_non_start">
 			<state id="Learned" />
@@ -933,14 +933,14 @@
 		<cpt id="AND_sortaSum">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<parents>IntDataType AndExpression LessEqualExpression GreaterEqualExpression IfStatement</parents>
-			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+			<parents>AndExpression GreaterEqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="sortaSum">
 			<state id="Correct" />
 			<state id="Wrong" />
 			<parents>AND_sortaSum</parents>
-			<probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+			<probabilities>0.6045318145863391 0.3954681854136609 0.0125197852489609 0.9874802147510392</probabilities>
 		</cpt>
 		<cpt id="AND_squirrel_play">
 			<state id="Learned" />
@@ -1065,14 +1065,14 @@
 		<cpt id="AND_pretest_ifelse">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<parents>IntDataType IfElseIfStatement IfElseStatement GreaterEqualExpression IfStatement</parents>
-			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+			<parents>IfElseIfStatement IfElseStatement GreaterEqualExpression</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="pretest_ifelse">
 			<state id="Correct" />
 			<state id="Wrong" />
 			<parents>AND_pretest_ifelse</parents>
-			<probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+			<probabilities>0.9 0.1 0.09999999999999962 0.9000000000000004</probabilities>
 		</cpt>
 		<cpt id="AND_pretest_method">
 			<state id="Learned" />
@@ -1089,14 +1089,14 @@
 		<cpt id="AND_pretest_nested_for">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<parents>IntDataType NestedForLoops PostIncrementExpression ForStatement LessEqualExpression java_lang_System_out_print java_lang_System_out_println</parents>
-			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+			<parents>NestedForLoops LessEqualExpression java_lang_System_out_println StringLiteral</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="pretest_nested_for">
 			<state id="Correct" />
 			<state id="Wrong" />
 			<parents>AND_pretest_nested_for</parents>
-			<probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+			<probabilities>0.9 0.1 0.09999999999999987 0.9000000000000002</probabilities>
 		</cpt>
 		<cpt id="AND_pretest_qj_2darray">
 			<state id="Learned" />
@@ -2073,271 +2073,271 @@
         <cpt id="AND_compareNumTo6SumTo12">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType LessExpression OrExpression AddExpression BooleanDataType</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>LessExpression AddExpression BooleanDataType</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="compareNumTo6SumTo12">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_compareNumTo6SumTo12</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.6311155030515058 0.3688844969484941 0.04831177599972727 0.9516882240002728</probabilities>
         </cpt>
         <cpt id="AND_conditionalSum">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType LessExpression OrExpression AddExpression IfStatement</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>LessExpression OrExpression AddExpression IfStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="conditionalSum">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_conditionalSum</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.6045318145863391 0.3954681854136609 0.0125197852489609 0.9874802147510392</probabilities>
         </cpt>
         <cpt id="AND_conditionalSum2">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType LessExpression OrExpression AddExpression IfStatement</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>LessExpression OrExpression AddExpression IfStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="conditionalSum2">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_conditionalSum2</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.6045318145863391 0.3954681854136609 0.0125197852489609 0.9874802147510392</probabilities>
         </cpt>
         <cpt id="AND_countIterations">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType NestedForLoops PostIncrementExpression ForStatement LessEqualExpression AddExpression</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>NestedForLoops PostIncrementExpression ForStatement AddExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="countIterations">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_countIterations</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.9061066680243646 0.09389333197563539 0.02400040598119196 0.975999594018808</probabilities>
         </cpt>
         <cpt id="AND_forestSquirrelPlay">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType AndExpression LessEqualExpression GreaterEqualExpression NotExpression BooleanDataType</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>AndExpression GreaterEqualExpression NotExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="forestSquirrelPlay">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_forestSquirrelPlay</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.8497330916418299 0.1502669083581701 0.09536409127948074 0.9046359087205192</probabilities>
         </cpt>
         <cpt id="AND_forSumIn5thIncrements">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType AddAssignmentExpression ForStatement LessEqualExpression java_lang_System_out_println</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>AddAssignmentExpression ForStatement LessEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="forSumIn5thIncrements">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_forSumIn5thIncrements</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
         </cpt>
         <cpt id="AND_lotteryTicket">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType IfElseIfStatement IfElseStatement GreaterExpression IfStatement</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>IfElseIfStatement IfElseStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="lotteryTicket">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_lotteryTicket</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.821101514594871 0.1788984854051289 0.01254418195663484 0.9874558180433651</probabilities>
         </cpt>
         <cpt id="AND_nestedIfElse">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType IfElseStatement GreaterExpression LessEqualExpression IfStatement</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>IfElseStatement GreaterExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="nestedIfElse">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_nestedIfElse</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.4394271095638312 0.5605728904361688 0.006411152642522022 0.993588847357478</probabilities>
         </cpt>
         <cpt id="AND_numSign">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType IfElseStatement GreaterEqualExpression IfStatement</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>IfElseStatement GreaterEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="numSign">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_numSign</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.6045318145863391 0.3954681854136609 0.0125197852489609 0.9874802147510392</probabilities>
         </cpt>
         <cpt id="AND_oneBooleanFalse">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType AndExpression NotExpression BooleanDataType</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>AndExpression NotExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="oneBooleanFalse">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_oneBooleanFalse</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.4210835023497173 0.5789164976502826 0.05153394806005077 0.9484660519399493</probabilities>
         </cpt>
         <cpt id="AND_posttest_ifelse">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType IfElseIfStatement IfElseStatement GreaterEqualExpression IfStatement</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>IfElseIfStatement IfElseStatement GreaterEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="posttest_ifelse">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_posttest_ifelse</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.9 0.1 0.09999999999999962 0.9000000000000004</probabilities>
         </cpt>
         <cpt id="AND_posttest_nested_for">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType NestedForLoops PostIncrementExpression ForStatement LessEqualExpression java_lang_System_out_print java_lang_System_out_println</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>NestedForLoops PostIncrementExpression LessEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="posttest_nested_for">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_posttest_nested_for</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.9 0.1 0.09999999999999987 0.9000000000000002</probabilities>
         </cpt>
         <cpt id="AND_print0ToN">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType PostIncrementExpression ForStatement LessEqualExpression java_lang_System_out_println</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>PostIncrementExpression ForStatement LessEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="print0ToN">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_print0ToN</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
         </cpt>
         <cpt id="AND_printAtoB">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType LessExpression PostIncrementExpression ForStatement java_lang_System_out_println</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>LessExpression PostIncrementExpression ForStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="printAtoB">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_printAtoB</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
         </cpt>
         <cpt id="AND_printInStepsOf5">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType AddAssignmentExpression ForStatement LessEqualExpression</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>AddAssignmentExpression ForStatement LessEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="printInStepsOf5">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_printInStepsOf5</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
         </cpt>
         <cpt id="AND_printInStepsOf5_2">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType AddAssignmentExpression ForStatement LessEqualExpression</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>AddAssignmentExpression ForStatement LessEqualExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="printInStepsOf5_2">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_printInStepsOf5_2</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
         </cpt>
         <cpt id="AND_printNto1">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType ForStatement GreaterEqualExpression java_lang_System_out_println PostDecrementExpression</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>ForStatement GreaterEqualExpression PostDecrementExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="printNto1">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_printNto1</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
         </cpt>
         <cpt id="AND_printSumAtoB">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType LessExpression PostIncrementExpression ForStatement AddExpression</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>LessExpression ForStatement AddExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="printSumAtoB">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_printSumAtoB</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.1924090915343412 0.8075909084656588 0.08497748711240879 0.9150225128875913</probabilities>
         </cpt>
         <cpt id="AND_squirrelParty50">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType AndExpression OrExpression BooleanDataType</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>AndExpression OrExpression BooleanDataType</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="squirrelParty50">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_squirrelParty50</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.8497330916418299 0.1502669083581701 0.09536409127948074 0.9046359087205192</probabilities>
         </cpt>
         <cpt id="AND_squirrelParty60">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType AndExpression OrExpression BooleanDataType</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>AndExpression OrExpression BooleanDataType</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="squirrelParty60">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_squirrelParty60</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.8497330916418299 0.1502669083581701 0.09536409127948074 0.9046359087205192</probabilities>
         </cpt>
         <cpt id="AND_twoNumSpecial">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType GreaterExpression AndExpression OrExpression BooleanDataType</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>AndExpression OrExpression BooleanDataType</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="twoNumSpecial">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_twoNumSpecial</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.4210835023497173 0.5789164976502826 0.05153394806005077 0.9484660519399493</probabilities>
         </cpt>
         <cpt id="AND_JAccountGrowth1_US">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType PostIncrementExpression DoubleDataType ForStatement LessEqualExpression AddExpression MultiplyExpression</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>PostIncrementExpression DoubleDataType ForStatement LessEqualExpression AddExpression MultiplyExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="JAccountGrowth1_US">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_JAccountGrowth1_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.8600187663384239 0.1399812336615761 0.3606487108531877 0.6393512891468124</probabilities>
         </cpt>
         <cpt id="AND_JFailCourse1_US">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType LessExpression GreaterExpression ObjectMethodInvocation OrExpression BooleanDataType</parents>
+            <parents>LessExpression GreaterExpression ObjectMethodInvocation OrExpression BooleanDataType ImportStatement</parents>
             <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="JFailCourse1_US">
@@ -2349,170 +2349,86 @@
         <cpt id="AND_JIfElseNumSign1_US">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>LessExpression IfElseIfStatement IfElseStatement GreaterExpression IfStatement</parents>
+            <parents>LessExpression IfElseIfStatement IfElseStatement GreaterExpression ObjectMethodInvocation</parents>
             <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="JIfElseNumSign1_US">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_JIfElseNumSign1_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.7606719150817653 0.2393280849182347 0.8410483238053463 0.1589516761946537</probabilities>
         </cpt>
         <cpt id="AND_JIfElseWages1_US">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType AddExpression IfElseStatement GreaterExpression MultiplyExpression IfStatement SubtractExpression</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>IfElseStatement DoubleDataType AddExpression MultiplyExpression StringAddition Constant ConstantInitializationStatement SubtractExpression</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="JIfElseWages1_US">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_JIfElseWages1_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.5083434623244273 0.4916565376755727 0.3340630482731445 0.6659369517268555</probabilities>
         </cpt>
         <cpt id="AND_JPrintingSums_US">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType NestedForLoops PostIncrementExpression ForStatement LessEqualExpression AddExpression java_lang_System_out_println</parents>
+            <parents>NestedForLoops PostIncrementExpression ForStatement LessEqualExpression AddExpression SimpleVariable StringAddition</parents>
             <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="JPrintingSums_US">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_JPrintingSums_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.9800684548525365 0.01993154514746354 0.1568214114588746 0.8431785885411254</probabilities>
         </cpt>
         <cpt id="AND_JPrintNumDesc2_US">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType GreaterExpression ForStatement java_lang_System_out_println MinusAssignmentExpression</parents>
+            <parents>GreaterExpression ObjectMethodInvocation ForStatement ImportStatement MinusAssignmentExpression</parents>
             <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="JPrintNumDesc2_US">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_JPrintNumDesc2_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.7883830592323178 0.2116169407676823 0.07348309938484676 0.9265169006151531</probabilities>
         </cpt>
         <cpt id="AND_JRepeatedSequence1_US">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType PostIncrementExpression ForStatement LessEqualExpression java_lang_System_out_print</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>NestedForLoops PostIncrementExpression ObjectMethodInvocation ForStatement LessEqualExpression java_lang_System_out_print ImportStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="JRepeatedSequence1_US">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_JRepeatedSequence1_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.9800684548525365 0.01993154514746354 0.1568214114588746 0.8431785885411254</probabilities>
         </cpt>
         <cpt id="AND_JStars1_US">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType NestedForLoops PostIncrementExpression ForStatement LessEqualExpression java_lang_System_out_print java_lang_System_out_println</parents>
+            <parents>NestedForLoops PostIncrementExpression ObjectMethodInvocation ForStatement LessEqualExpression java_lang_System_out_print ImportStatement</parents>
             <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="JStars1_US">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_JStars1_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
+            <probabilities>0.483647971047519 0.516352028952481 0.1229313343501149 0.8770686656498851</probabilities>
         </cpt>
         <cpt id="AND_SimpleIf_US">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType LessExpression GreaterExpression OrExpression MultiplyExpression StringAddition IfStatement</parents>
+            <parents>LessExpression GreaterExpression ObjectMethodInvocation OrExpression MultiplyExpression StringAddition IfStatement</parents>
             <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="SimpleIf_US">
             <state id="Correct" />
             <state id="Wrong" />
             <parents>AND_SimpleIf_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
-        </cpt>
-        <cpt id="AND_JBooleanDryHot3_US">
-            <state id="Learned" />
-            <state id="Unlearned" />
-            <parents>IntDataType AndExpression NotExpression BooleanDataType</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
-        </cpt>
-        <cpt id="JBooleanDryHot3_US">
-            <state id="Correct" />
-            <state id="Wrong" />
-            <parents>AND_JBooleanDryHot3_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
-        </cpt>
-        <cpt id="AND_JNestedIfMaxOfThree_US">
-            <state id="Learned" />
-            <state id="Unlearned" />
-            <parents>IntDataType LessExpression IfElseStatement GreaterExpression IfStatement</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
-        </cpt>
-        <cpt id="JNestedIfMaxOfThree_US">
-            <state id="Correct" />
-            <state id="Wrong" />
-            <parents>AND_JNestedIfMaxOfThree_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
-        </cpt>
-        <cpt id="AND_JRentCar2_US">
-            <state id="Learned" />
-            <state id="Unlearned" />
-            <parents>IntDataType AndExpression GreaterEqualExpression NotExpression BooleanDataType</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
-        </cpt>
-        <cpt id="JRentCar2_US">
-            <state id="Correct" />
-            <state id="Wrong" />
-            <parents>AND_JRentCar2_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
-        </cpt>
-        <cpt id="AND_JRentCar3_US">
-            <state id="Learned" />
-            <state id="Unlearned" />
-            <parents>IntDataType AndExpression GreaterEqualExpression OrExpression BooleanDataType</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
-        </cpt>
-        <cpt id="JRentCar3_US">
-            <state id="Correct" />
-            <state id="Wrong" />
-            <parents>AND_JRentCar3_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
-        </cpt>
-        <cpt id="AND_JForOne2_US">
-            <state id="Learned" />
-            <state id="Unlearned" />
-            <parents>IntDataType LessExpression PostIncrementExpression ForStatement java_lang_System_out_println</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
-        </cpt>
-        <cpt id="JForOne2_US">
-            <state id="Correct" />
-            <state id="Wrong" />
-            <parents>AND_JForOne2_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
-        </cpt>
-        <cpt id="AND_JForTwo2_US">
-            <state id="Learned" />
-            <state id="Unlearned" />
-            <parents>IntDataType PostIncrementExpression ForStatement LessEqualExpression java_lang_System_out_println</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
-        </cpt>
-        <cpt id="JForTwo2_US">
-            <state id="Correct" />
-            <state id="Wrong" />
-            <parents>AND_JForTwo2_US</parents>
-            <probabilities>0.9800684548525365 0.01993154514746354 0.01993154514746354 0.9800684548525365</probabilities>
-        </cpt>
-        <cpt id="AND_JForThree2_US">
-            <state id="Learned" />
-            <state id="Unlearned" />
-            <parents>IntDataType AddAssignmentExpression ForStatement LessEqualExpression java_lang_System_out_println</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
-        </cpt>
-        <cpt id="JForThree2_US">
-            <state id="Correct" />
-            <state id="Wrong" />
-            <parents>AND_JForThree2_US</parents>
-            <probabilities>0.9904472503846776 0.009552749615322308 0.08479672171383079 0.9152032782861692</probabilities>
+            <probabilities>0.5083434623244273 0.4916565376755727 0.3340630482731445 0.6659369517268555</probabilities>
         </cpt>
 	</nodes>
 	<extensions>
@@ -5459,104 +5375,6 @@
             </node>
             <node id="SimpleIf_US">
                 <name>SimpleIf_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="AND_JBooleanDryHot3_US">
-                <name>AND_JBooleanDryHot3_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="JBooleanDryHot3_US">
-                <name>JBooleanDryHot3_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="AND_JNestedIfMaxOfThree_US">
-                <name>AND_JNestedIfMaxOfThree_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="JNestedIfMaxOfThree_US">
-                <name>JNestedIfMaxOfThree_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="AND_JRentCar2_US">
-                <name>AND_JRentCar2_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="JRentCar2_US">
-                <name>JRentCar2_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="AND_JRentCar3_US">
-                <name>AND_JRentCar3_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="JRentCar3_US">
-                <name>JRentCar3_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="AND_JForOne2_US">
-                <name>AND_JForOne2_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="JForOne2_US">
-                <name>JForOne2_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="AND_JForTwo2_US">
-                <name>AND_JForTwo2_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="JForTwo2_US">
-                <name>JForTwo2_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="AND_JForThree2_US">
-                <name>AND_JForThree2_US</name>
-                <interior color="e5f6f7" />
-                <outline color="0000bb" />
-                <font color="000000" name="MS Sans Serif" size="8" />
-                <position>-38 -18 38 18</position>
-            </node>
-            <node id="JForThree2_US">
-                <name>JForThree2_US</name>
                 <interior color="e5f6f7" />
                 <outline color="0000bb" />
                 <font color="000000" name="MS Sans Serif" size="8" />
