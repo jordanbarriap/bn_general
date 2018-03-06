@@ -1065,8 +1065,8 @@
 		<cpt id="AND_pretest_ifelse">
 			<state id="Learned" />
 			<state id="Unlearned" />
-			<parents>IntDataType IfElseIfStatement IfElseStatement GreaterEqualExpression IfStatement</parents>
-			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+			<parents>IntDataType IfElseIfStatement IfElseStatement LessEqualExpression GreaterEqualExpression IfStatement</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="pretest_ifelse">
 			<state id="Correct" />
@@ -2085,8 +2085,8 @@
         <cpt id="AND_conditionalSum">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType LessExpression OrExpression AddExpression IfStatement</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>IntDataType GreaterExpression LessExpression OrExpression AddExpression IfStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="conditionalSum">
             <state id="Correct" />
@@ -2097,8 +2097,8 @@
         <cpt id="AND_conditionalSum2">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType LessExpression OrExpression AddExpression IfStatement</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>IntDataType GreaterExpression LessExpression OrExpression AddExpression IfStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="conditionalSum2">
             <state id="Correct" />
@@ -2193,8 +2193,8 @@
         <cpt id="AND_posttest_ifelse">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType IfElseIfStatement IfElseStatement GreaterEqualExpression IfStatement</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>IntDataType IfElseIfStatement IfElseStatement LessEqualExpression GreaterEqualExpression IfStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="posttest_ifelse">
             <state id="Correct" />
@@ -2241,8 +2241,8 @@
         <cpt id="AND_printInStepsOf5">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType AddAssignmentExpression ForStatement LessEqualExpression</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>IntDataType AddAssignmentExpression ForStatement LessEqualExpression java_lang_System_out_println</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="printInStepsOf5">
             <state id="Correct" />
@@ -2253,8 +2253,8 @@
         <cpt id="AND_printInStepsOf5_2">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType AddAssignmentExpression ForStatement LessEqualExpression</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>IntDataType AddAssignmentExpression ForStatement LessEqualExpression java_lang_System_out_println</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="printInStepsOf5_2">
             <state id="Correct" />
@@ -2289,8 +2289,8 @@
         <cpt id="AND_squirrelParty50">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType AndExpression OrExpression BooleanDataType</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>IntDataType GreaterExpression AndExpression OrExpression BooleanDataType</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="squirrelParty50">
             <state id="Correct" />
@@ -2301,8 +2301,8 @@
         <cpt id="AND_squirrelParty60">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType AndExpression OrExpression BooleanDataType</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>IntDataType GreaterExpression AndExpression OrExpression BooleanDataType</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="squirrelParty60">
             <state id="Correct" />
@@ -2445,8 +2445,8 @@
         <cpt id="AND_JNestedIfMaxOfThree_US">
             <state id="Learned" />
             <state id="Unlearned" />
-            <parents>IntDataType LessExpression IfElseStatement GreaterExpression IfStatement</parents>
-            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
+            <parents>IntDataType IfElseStatement GreaterExpression IfStatement</parents>
+            <probabilities>1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
         </cpt>
         <cpt id="JNestedIfMaxOfThree_US">
             <state id="Correct" />

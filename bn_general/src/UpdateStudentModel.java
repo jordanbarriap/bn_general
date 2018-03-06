@@ -39,7 +39,7 @@ public class UpdateStudentModel extends HttpServlet {
 	private static StudentData stdData; // singleton instance of class with students data
 	private static HashSet<String> kcList = null;
 	private static HashSet<String> itemList = null;
-	private static Map<String, Network> stdNetworkMap = null; // key is usrgrp, value is the latest network of student
+	//private static Map<String, Network> stdNetworkMap = null; // key is usrgrp, value is the latest network of student
 
 	private static String bnStr = null; //string representing the network in the BN File
 	private static Network mainNet = null; //a network object representing the network in the BN file
@@ -151,9 +151,9 @@ public class UpdateStudentModel extends HttpServlet {
 			}
 			
 			// Step 5: create the student network map
-			if (UpdateStudentModel.stdNetworkMap == null) {
-				stdNetworkMap = new HashMap<String, Network>();
-			}
+			//if (UpdateStudentModel.stdNetworkMap == null) {
+			//	stdNetworkMap = new HashMap<String, Network>();
+			//}
 
 			//System.out.println("finished params init:" + dateFormat.format(new Date()));
 
@@ -162,6 +162,8 @@ public class UpdateStudentModel extends HttpServlet {
 
 			// Step 7: get the latest student model
 			String lastStdModelTxt = getLastStudentModel(usr, grp);
+			
+			//System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~bn_general/updateStdModal: "+usr+" "+grp+" "+lastStdModelTxt);
 			HashMap<String, Double> lastStdModel = getMapLastStdModel(lastStdModelTxt);
 			
 			//System.out.println("got last student model map:" + dateFormat.format(new Date()));
@@ -181,6 +183,7 @@ public class UpdateStudentModel extends HttpServlet {
 			if (lastStdModelTxt == null) {
 				jsonStdModel = getJSONStdModel(lastStdModel);
 				// put this model in the map
+				//System.out.println("~~~~~null case~~~~~~storing model in the stdData: "+jsonStdModel);
 				stdData.setStdModel(usr, grp, jsonStdModel);
 				storeNullStdModel(usr, grp, jsonStdModel, event);
 			}
@@ -190,6 +193,7 @@ public class UpdateStudentModel extends HttpServlet {
 			if (newStdModel != null) {
 				jsonStdModel = getJSONStdModel(newStdModel);
 				// put this model in the map
+				//System.out.println("~~~~~uptate stdData~~~~~storing model in the stdData: "+jsonStdModel);
 				stdData.setStdModel(usr, grp, jsonStdModel);
 				storeUpdatedStdModel(usr, grp, jsonStdModel, event);
 			} 
@@ -267,11 +271,11 @@ public class UpdateStudentModel extends HttpServlet {
 		if (lastStdModel == null) {
 			// adding estimates of kcs
 			for (String kc : kcList) {
-				stdModelMap.put(kc, 0.0);
+				stdModelMap.put(kc, 0.5);
 			}
 			// adding estimates of items
 			for (String item : itemList) {
-				stdModelMap.put(item, 0.0);
+				stdModelMap.put(item, 0.5);
 			}
 		} else {
 			JSONObject json = new JSONObject(lastStdModel);
@@ -332,6 +336,7 @@ public class UpdateStudentModel extends HttpServlet {
 		if (stdModel != null)
 			return stdModel;
 		
+		//System.out.println("~~~~~NOTE!!~~~StudentModel not found in the StudentData, thus, reading DB."); 
 		BNGeneralConfigManager cm = new BNGeneralConfigManager(this);
 		BNGeneralDB bnDB = new BNGeneralDB(cm.bn_dbstring, cm.bn_dbuser, cm.bn_dbpass);
 		bnDB.openConnection();
@@ -359,7 +364,9 @@ public class UpdateStudentModel extends HttpServlet {
 
 		
 		//get the latest user network from the map if exists; otherwise, initialize a network for the user based on user model
-		Network net = stdNetworkMap.get(usr + grp) ;
+		//Network net = stdNetworkMap.get(usr + grp) ;
+		Network net = null;
+		//System.out.println("~~~~~in get newStudentModel:cachec net is: "+net);
 		if (net == null) {
 			net = mainNet;
 			//initialize the network using the latest student model 
@@ -368,7 +375,7 @@ public class UpdateStudentModel extends HttpServlet {
 			for (String bnKCId : lastStudentModel.keySet()) {
 				prob = lastStudentModel.get(bnKCId); 
 				if (kcList.contains(bnKCId)) {
-					bnKCId = bnKCId.replaceAll(".", "_"); //mapping from KC name from parser to BN node name
+					bnKCId = bnKCId.replaceAll("\\.", "_"); //mapping from KC name from parser to BN node name
 					if (!bnNodes.contains(bnKCId))
 						continue;
 					if (net.getParentIds(bnKCId).length > 0){
@@ -378,6 +385,7 @@ public class UpdateStudentModel extends HttpServlet {
 					prob = Math.min(Math.max(prob, MIN_BN_KNOWLEDGE), 1 - MIN_BN_KNOWLEDGE);
 					double[] aDef = {prob, 1 - prob};
 					net.setNodeDefinition(bnKCId, aDef);
+					//net.updateBeliefs(); // we need to update beliefs after we initialized the value of KCs nodes with student model data
 				}
 			}
 			net.updateBeliefs(); // we need to update beliefs after we initialized the value of KCs nodes with student model data
@@ -447,6 +455,7 @@ public class UpdateStudentModel extends HttpServlet {
 		 * 
 		 * Here it assumes that all KCIds are already in the bn.
 		 */
+		//System.out.println("~~~~~~in updateByOneEvidence");
 		try {
 			Set<String> bnNodes = new HashSet<String>(Arrays.asList(net.getAllNodeIds()));
 			if (!bnNodes.contains(itemId)) {
@@ -521,8 +530,8 @@ public class UpdateStudentModel extends HttpServlet {
 			net.clearEvidence(itemId); //note that we need to do this only after we got updated values. Otherwise, item node values will be invalidated
 
 			//add the latest network of the user in the map
-			stdNetworkMap.put(usr + grp, net);
-	
+			//stdNetworkMap.put(usr + grp, net);
+			//System.out.println("~~~~~~newStudentModel: "+newStudentModel);
 			return newStudentModel;
 
 		} catch (Exception e) {
