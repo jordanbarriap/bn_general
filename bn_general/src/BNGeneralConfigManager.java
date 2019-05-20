@@ -1,4 +1,5 @@
 
+import java.io.File;
 import java.io.InputStream;
 
 import javax.servlet.ServletContext;
@@ -19,6 +20,7 @@ public class BNGeneralConfigManager {
 	public String um2_dbpass;
 
 	private static String config_string = "./WEB-INF/bn_general_config.xml";
+	private static String config_string_no_servlet = "./WebContent/WEB-INF/bn_general_config.xml";
 
 	public BNGeneralConfigManager(HttpServlet servlet) {
 		try {

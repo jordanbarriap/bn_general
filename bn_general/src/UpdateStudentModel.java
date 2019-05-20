@@ -63,15 +63,35 @@ public class UpdateStudentModel extends HttpServlet {
 	static {
 		// License issued by BayesFusion Licensing Server
 		// This code must be executed before any other jSMILE object is created
-		new smile.License("SMILE LICENSE bc5521ad e4a84d0a c1673b41 " + "THIS IS AN ACADEMIC LICENSE AND CAN BE USED  "
-				+ "SOLELY FOR ACADEMIC RESEARCH AND TEACHING, " + "AS DEFINED IN THE BAYESFUSION ACADEMIC  "
-				+ "SOFTWARE LICENSING AGREEMENT. " + "Serial #: az1cg5xxh8hcfmlvrg6n3ks9v "
-				+ "Issued for: Roya Hosseini (roh38@pitt.edu) " + "Academic institution: University of Pittsburgh "
-				+ "Valid until: 2018-12-11 " + "License issued for Ph.D. thesis in Intelligent Systems Program",
-				new byte[] { 10, 97, 25, 44, 1, 58, -122, -49, -56, -32, 68, 8, 17, 72, 120, 96, -68, -19, 121, 18, 84,
-						-120, -23, 101, 45, -89, -81, -19, 15, -60, -12, 77, -61, 102, 23, 41, 80, 89, 32, -32, -61, 34,
-						-48, -33, 119, 32, -63, -124, -22, 22, -87, -50, 41, -81, -128, -46, -9, 53, 80, 102, 47, -46,
-						89, -25 });
+//		new smile.License("SMILE LICENSE bc5521ad e4a84d0a c1673b41 " + "THIS IS AN ACADEMIC LICENSE AND CAN BE USED  "
+//				+ "SOLELY FOR ACADEMIC RESEARCH AND TEACHING, " + "AS DEFINED IN THE BAYESFUSION ACADEMIC  "
+//				+ "SOFTWARE LICENSING AGREEMENT. " + "Serial #: az1cg5xxh8hcfmlvrg6n3ks9v "
+//				+ "Issued for: Roya Hosseini (roh38@pitt.edu) " + "Academic institution: University of Pittsburgh "
+//				+ "Valid until: 2018-12-11 " + "License issued for Ph.D. thesis in Intelligent Systems Program",
+//				new byte[] { 10, 97, 25, 44, 1, 58, -122, -49, -56, -32, 68, 8, 17, 72, 120, 96, -68, -19, 121, 18, 84,
+//						-120, -23, 101, 45, -89, -81, -19, 15, -60, -12, 77, -61, 102, 23, 41, 80, 89, 32, -32, -61, 34,
+//						-48, -33, 119, 32, -63, -124, -22, 22, -87, -50, 41, -81, -128, -46, -9, 53, 80, 102, 47, -46,
+//						89, -25 });
+		// License issued by BayesFusion Licensing Server
+		// This code must be executed before any other jSMILE object is created
+		new smile.License(
+			"SMILE LICENSE 7df1b8ad 27de13e4 9f89a241 " +
+			"THIS IS AN ACADEMIC LICENSE AND CAN BE USED " +
+			"SOLELY FOR ACADEMIC RESEARCH AND TEACHING, " +
+			"AS DEFINED IN THE BAYESFUSION ACADEMIC " +
+			"SOFTWARE LICENSING AGREEMENT. " +
+			"Serial #: dk8t9lkalbf1a0f5zn02hae6j " +
+			"Issued for: Jordan Barria Pineda (JAB464@pitt.edu) " +
+			"Academic institution: University of Pittsburgh " +
+			"Valid until: 2020-08-31 " +
+			"PAWS Lab Project",
+			new byte[] {
+			-113,-108,-28,22,-7,-88,-15,-7,-69,-72,49,-4,-65,43,-68,54,
+			-91,-2,-121,38,-12,90,-54,49,-60,57,43,22,7,79,127,-105,
+			-18,-110,-7,56,-79,113,-58,-71,-49,109,0,5,10,-28,-110,88,
+			-20,52,84,-64,-83,-83,37,3,99,13,73,-93,68,-53,4,-97
+			}
+		);
 	}
 
 	

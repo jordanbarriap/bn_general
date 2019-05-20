@@ -28,7 +28,7 @@ public class StudentModelCache extends HttpServlet {
 	        String updatesm = request.getParameter("updatesm");
 
 			// Step 3: get the last student model
-			String jsonLastStdModel = StudentData.getInstance().getLastStudentModel(usr, grp);
+			String jsonLastStdModel = StudentData.getInstance(this).getLastStudentModel(usr, grp);
 
 			String params = createParamJSON(usr, grp, lastAct, lastActResult, contents, event);
 			

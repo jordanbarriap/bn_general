@@ -2,7 +2,9 @@
 import java.io.InputStream;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 
 public class BNGeneralDB extends DBInterface {
 	public boolean verbose;
@@ -236,5 +238,30 @@ public class BNGeneralDB extends DBInterface {
 			e.printStackTrace();
 			throw new SQLException(e.getMessage());
 		}
+	}
+	
+	public Map<String,String> getLatestStudentModels(){
+		Map<String,String> stdModelMap = new HashMap<String, String>();
+		try {
+			stmt = conn.createStatement();
+			String query = "SELECT * FROM bn_general.ent_student_models_latest";
+			rs = stmt.executeQuery(query);
+			while (rs.next()) {
+				String user = rs.getString("user_id");
+				String grp = rs.getString("group_id");
+				String stdModel = rs.getString("std_model");
+				String userKey = user+grp;
+				stdModelMap.put(userKey, stdModel);
+			}
+			this.releaseStatement(stmt, rs);
+		} catch (SQLException ex) {
+			System.out.println("SQLException: " + ex.getMessage());
+			System.out.println("SQLState: " + ex.getSQLState());
+			System.out.println("VendorError: " + ex.getErrorCode());
+			this.releaseStatement(stmt, rs);
+		} finally {
+			this.releaseStatement(stmt, rs);
+		}
+		return stdModelMap;
 	}
 }
